@@ -93,7 +93,9 @@ public class Hangman extends ConsoleProgram {
     			continue;
     		}
     		break;
+    		alphabetEntered = 
     	}
+    	return alphabetEntered;
     }
     
 /** Checks if the character passed is an alphabetical character, i.e. a-z or A-Z
