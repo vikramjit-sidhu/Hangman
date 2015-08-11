@@ -63,7 +63,7 @@ public class Hangman extends ConsoleProgram {
     	
     }
     
-    private int checkCharInString() {
+    private boolean checkCharInString() {
     	
     }
 
