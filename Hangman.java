@@ -61,7 +61,7 @@ public class Hangman extends ConsoleProgram {
     }
     
 /**	Get the character as input from the user, the character obtained is an alphabetic char in the upper case
- * @return
+ * @return The upper case alphabetic character that the user entered 
  */
     private char getUserInput() {
     	char userChar = readUpperCaseAlphabet("Your guess: ");
