@@ -84,7 +84,8 @@ public class Hangman extends ConsoleProgram {
     			println(INVALID_LENGTH_GUESS_MESSAGE);
     			continue;
     		}
-    		if (!)
+    		char charEntered = userInput[0]''
+    		if (!isAlphabeticChar())
     		
     	}
     }
