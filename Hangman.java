@@ -72,7 +72,7 @@ public class Hangman extends ConsoleProgram {
  * @return	An upper case alphabetical character (A-Z) 
  */
     private char readUpperCaseAlphabet(String prompt) {
-    	
+    	String userInput;
     }
  
 /**	Creates a String of form "-----" with length of the parameter passed
