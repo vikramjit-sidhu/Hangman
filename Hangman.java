@@ -92,7 +92,7 @@ public class Hangman extends ConsoleProgram {
     			println(INVALID_CHAR_ENTERED_MESSAGE);
     			continue;
     		}
-    		
+    		break;
     	}
     }
     
