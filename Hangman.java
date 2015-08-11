@@ -79,7 +79,7 @@ public class Hangman extends ConsoleProgram {
     	while (true) {
     		userInput = readLine(prompt);
     		if (userInput.length() > 1) {
-    			println();
+    			println(INVALID_LENGTH_GUESS_MESSAGE);
     			continue;
     		}
     	}
