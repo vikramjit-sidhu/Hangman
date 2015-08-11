@@ -45,9 +45,11 @@ public class Hangman extends ConsoleProgram {
     }
     
 /**	Update the word guessed so far with the latest character that the user has entered if she has guessed correctly.
- * 	If the userInput is in the word wordToGuess, 
+ * 	If the character userInput is in the word wordToGuess, update wordToGuess by replacing all occurances
+ * 	of userInput with - (WORD_BLANK_CHAR) correspondingly in the wordGuessedSoFar variable, replace all places
+ * 	where userInput was found with the character.
  *     
- * @param wordGuessedSoFar
+ * @param wordGuessedSoFar The word guessed so far, this is either updated and returned or returned as it is
  * @param userInput
  * @return
  */
