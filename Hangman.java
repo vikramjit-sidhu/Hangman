@@ -64,8 +64,10 @@ public class Hangman extends ConsoleProgram {
     }
     
 /** Read a alphabet as input from the user.
- * 	Since a line has to be read (i.e. a String), checking if its length is 1
- * 	The user is prompted for input until he enters a  	
+ * 	Since a line has to be read (i.e. a String), checking if its length is 1,
+ * 	the user is prompted for input until he enters a string of length 1
+ * 	The length 1 string is then checked to see if it is a valid alphabet (a-z or A-Z),
+ * 	if a valid alphabet is not entered, prompting the user for input again
  * @param prompt
  * @return
  */
