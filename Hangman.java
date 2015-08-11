@@ -18,6 +18,7 @@ public class Hangman extends ConsoleProgram {
 /**	The character which is placed on the screen in place of the actual letters */	
 	private static final char WORD_BLANK_CHAR = '-';
 	
+/**	In case the user tries to act too smart and enter a String as a guess instead of a character, display this message */	
 	private static final String INVALID_LENGTH_GUESS_MESSAGE = "Please enter a single character as your guess";
 	
     public void run() {
