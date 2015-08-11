@@ -32,7 +32,7 @@ public class Hangman extends ConsoleProgram {
     	while (numGuessesLeft > 0) {
     		printCurrentlyGuessedWord(wordGuessedSoFar);
     		printCurrentChancesRemaining();
-    		char userInput = 
+    		char userInput = getUserInput();
     		
     		numGuessesLeft--;
     	}
