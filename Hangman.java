@@ -21,6 +21,7 @@ public class Hangman extends ConsoleProgram {
 /**	In case the user tries to act too smart and enter a String as a guess instead of a character, display this message */	
 	private static final String INVALID_LENGTH_GUESS_MESSAGE = "Please enter a single character as your guess";
 	
+/**	The error message displayed if the user enters a non-alphabetical character as her guess */	
 	private static final String INVALID_CHAR_ENTERED_MESSAGE = "Please enter only an alphabetical character as your guess";
 	
     public void run() {
