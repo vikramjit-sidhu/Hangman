@@ -96,6 +96,10 @@ public class Hangman extends ConsoleProgram {
     	}
     }
     
+/** Checks if the character passed is an alphabetical character, i.e. a-z or A-Z
+ * @param charEntered The character to check
+ * @return true if it is an alphabetical char
+ */
     private boolean isAlphabeticChar(char charEntered) {
     	
     }
