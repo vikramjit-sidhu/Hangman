@@ -60,9 +60,9 @@ public class Hangman extends ConsoleProgram {
     	println("You have " + numGuessesLeft + " guesses left");
     }
     
-/**	Get the character as input from the user
- * 	Handling the case that the character entered is not a valid alphabetical character
- * 	In case the alphabet entered is lower case, converting it to upper case */    
+/**	Get the character as input from the user, the character obtained is an alphabetic char in the upper case
+ * @return
+ */
     private char getUserInput() {
     	char userChar = readUpperCaseAlphabet("Your guess: ");
     	return userChar;
