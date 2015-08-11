@@ -51,7 +51,7 @@ public class Hangman extends ConsoleProgram {
     
 /**	Print the number of chances that the user has remaining */    
     private void printCurrentChancesRemaining() {
-    	
+    	println("You have " + numGuessesLeft + " guesses left");
     }
  
 /**	Creates a String of form "-----" with length of the parameter passed
