@@ -44,8 +44,14 @@ public class Hangman extends ConsoleProgram {
     	println("Welcome to Hangman !");
     }
     
+/**	Before taking input from the user, display the word that she has guessed so far */    
     private void printCurrentlyGuessedWord(String wordGuessedSoFar) {
     	println("The word now looks like this: " + wordGuessedSoFar);
+    }
+    
+/**	Print the number of chances that the user has remaining */    
+    private void printCurrentChancesRemaining() {
+    	
     }
  
 /**	Creates a String of form "-----" with length of the parameter passed
