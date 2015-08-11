@@ -116,7 +116,7 @@ public class Hangman extends ConsoleProgram {
  */
     private char convertToUpperCase(char ch) {
     	if (ch >= 'a' && ch <= 'z') {
-    		ch = ch - 'a';
+    		ch = (ch - 'a') + 'A';
     	}
     	return ch;
     }
