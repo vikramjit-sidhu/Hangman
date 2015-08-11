@@ -95,6 +95,10 @@ public class Hangman extends ConsoleProgram {
     		
     	}
     }
+    
+    private boolean isAlphabeticChar(char charEntered) {
+    	
+    }
  
 /**	Creates a String of form "-----" with length of the parameter passed
  * 	The '-' character is taken from a constant, it can be changed
