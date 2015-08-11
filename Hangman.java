@@ -185,4 +185,3 @@ public class Hangman extends ConsoleProgram {
 /**	The word which is randomly chosen from the lexical class, which has to be guessed by the user */    
     private String wordToGuess;
 }
-
