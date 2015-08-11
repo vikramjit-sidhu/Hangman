@@ -41,11 +41,11 @@ public class Hangman extends ConsoleProgram {
     		char userInput = getUserInput();
     		if (checkCharInString(wordToGuess, userInput)) {
     			println("That guess is correct");
+    			wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, userInput);
     		}
     		else {
     			println("There are no " + userInput + "'s in the word");
     		}
-    		wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, userInput); 
     		numGuessesLeft--;
     	}
     }
