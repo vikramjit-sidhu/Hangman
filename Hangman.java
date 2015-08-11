@@ -100,8 +100,11 @@ public class Hangman extends ConsoleProgram {
  * @param charEntered The character to check
  * @return true if it is an alphabetical char
  */
-    private boolean isAlphabeticChar(char charEntered) {
-    	
+    private boolean isAlphabeticChar(char ch) {
+    	if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') {
+    		return true;
+    	}
+    	return false;
     }
  
 /**	Creates a String of form "-----" with length of the parameter passed
