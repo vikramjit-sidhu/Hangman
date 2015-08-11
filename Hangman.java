@@ -39,9 +39,20 @@ public class Hangman extends ConsoleProgram {
     		printCurrentlyGuessedWord(wordGuessedSoFar);
     		printCurrentChancesRemaining();
     		char userInput = getUserInput();
-    		wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, userInput); 
+    		wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, wordToGuess, userInput); 
     		numGuessesLeft--;
     	}
+    }
+    
+/**	Update the word guessed so far with the latest character that the user has entered.
+ * 	If the character is contained in 
+ *     
+ * @param wordGuessedSoFar
+ * @param userInput
+ * @return
+ */
+    private String modifyGuessedWordFromUserInput(String wordGuessedSoFar, char userInput) {
+    	
     }
 
     
