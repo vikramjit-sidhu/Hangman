@@ -1,8 +1,7 @@
 /*
  * File: Hangman.java
  * ------------------
- * This program will eventually play the Hangman game from
- * Assignment #4.
+ * 
  */
 
 import acm.graphics.*;
@@ -13,8 +12,84 @@ import java.awt.*;
 
 public class Hangman extends ConsoleProgram {
 
-    public void run() {
-		/* You fill this in */
-	}
+/**	The total number of guesses the user has */	
+	private static final int INITIAL_NUMBER_OF_GUESSES = 8;
 
+/**	The character which is placed on the screen in place of the actual letters */	
+	private static final char WORD_BLANK_CHAR = '-';
+	
+    public void run() {
+    	playHangmanGame();
+    }
+    
+/**	This is the main method which creates the console part of the hangman game
+ *  
+ */
+    private void playHangmanGame() {
+    	outputWelcomeString();
+    	String wordToGuess = getGameWord();
+    	String wordGuessedSoFar = generateGuessedWord(wordToGuess.length());
+    	while (numGuessesLeft > 0) {
+    		
+    		
+    		numGuessesLeft--;
+    	}
+    }
+
+    
+/**	Print the welcome message to the user on console */
+    private void outputWelcomeString() {
+    	println("Welcome to Hangman !");
+    }
+ 
+/**	Creates a String of form "-----" with length of the parameter passed
+ * 	The '-' character is taken from a constant, it can be changed
+ * @param guessedWordLen The length of the return word
+ * @return The string in form of "---"
+ */
+    private String generateGuessedWord(int guessedWordLen) {
+    	/* Create a new array of chars with the length required, replace \0 with the string required
+    	 * The character WORD_BLANK_CHAR has to be converted to a string to use it in replace method */
+    	String guessWord = new String(new char[guessedWordLen]).replace("\0", String.valueOf(WORD_BLANK_CHAR));
+    	return guessWord;
+    }
+    
+    
+/**	Get the word which the user has to guess
+ * Uses the Lexicon class to get the total number of words,
+ * using this as a limit, the random number generator gets a number within this range.
+ * This randomly generated number is the index of the number which is obtained
+ * @return The word which is to be guessed
+ */
+    private String getGameWord() {
+    	String wordToReturn = null;
+    	int numTotalWords = getTotalGameWords();
+    	/* The index of the word which is to be obtained from the lexicon class
+    	 * nextInt(num) generates a random int in range [0, num) */
+    	int wordIndex = randomGen.nextInt(numTotalWords);
+    	try {
+    		wordToReturn = lexicon.getWord(wordIndex);
+    	} catch (ErrorException e) {
+    		println("Error encountered, could not get your word");
+    	}
+    	return wordToReturn;
+    }
+   
+/**	Gets the total number of words that the lexicon holds
+ * @return total number of words
+ */
+    private int getTotalGameWords() {
+    	return lexicon.getWordCount();
+    }
+    
+    
+/**	Keep track of the number of guesses the user has left in this variable
+ * 	Initial value is the total guesses the user has */    
+    private int numGuessesLeft = INITIAL_NUMBER_OF_GUESSES;
+    
+/**	The object which is used to get a random word for the game */    
+    private HangmanLexicon lexicon = new HangmanLexicon();
+    
+/** Random number generator, used to get a random word for the game */    
+    private RandomGenerator randomGen = RandomGenerator.getInstance();
 }
