@@ -108,6 +108,14 @@ public class Hangman extends ConsoleProgram {
     	}
     	return false;
     }
+    
+/**	Given a character as input, convert it to upper case and return
+ * @param ch The character input which is converted to upper case
+ * @return the upper case value of the character input
+ */
+    private char convertToUpperCase(char ch) {
+    	
+    }
  
 /**	Creates a String of form "-----" with length of the parameter passed
  * 	The '-' character is taken from a constant, it can be changed
