@@ -115,7 +115,10 @@ public class Hangman extends ConsoleProgram {
  * @return the upper case value of the character input
  */
     private char convertToUpperCase(char ch) {
-    	
+    	if (ch >= 'a' && ch <= 'z') {
+    		
+    	}
+    	return ch;
     }
  
 /**	Creates a String of form "-----" with length of the parameter passed
