@@ -43,6 +43,10 @@ public class Hangman extends ConsoleProgram {
     private void outputWelcomeString() {
     	println("Welcome to Hangman !");
     }
+    
+    private void printCurrentlyGuessedWord(String wordGuessedSoFar) {
+    	println("The word now looks like this: " + wordGuessedSoFar);
+    }
  
 /**	Creates a String of form "-----" with length of the parameter passed
  * 	The '-' character is taken from a constant, it can be changed
