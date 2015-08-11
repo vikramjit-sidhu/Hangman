@@ -44,8 +44,8 @@ public class Hangman extends ConsoleProgram {
     	}
     }
     
-/**	Update the word guessed so far with the latest character that the user has entered.
- * 	If the character is contained in 
+/**	Update the word guessed so far with the latest character that the user has entered if she has guessed correctly.
+ * 	If the userInput is in the word wordToGuess, 
  *     
  * @param wordGuessedSoFar
  * @param userInput
@@ -181,4 +181,8 @@ public class Hangman extends ConsoleProgram {
     
 /** Random number generator, used to get a random word for the game */    
     private RandomGenerator randomGen = RandomGenerator.getInstance();
+    
+/**	The word which is randomly chosen from the lexical class, which has to be guessed by the user */    
+    private String wordToGuess;
 }
+
