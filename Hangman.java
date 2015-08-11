@@ -18,6 +18,8 @@ public class Hangman extends ConsoleProgram {
 /**	The character which is placed on the screen in place of the actual letters */	
 	private static final char WORD_BLANK_CHAR = '-';
 	
+	private static final String INVALID_LENGTH_GUESS_MESSAGE = "Please enter a single character as your guess";
+	
     public void run() {
     	playHangmanGame();
     }
@@ -75,6 +77,10 @@ public class Hangman extends ConsoleProgram {
     	String userInput;
     	while (true) {
     		userInput = readLine(prompt);
+    		if (userInput.length() > 1) {
+    			println();
+    			continue;
+    		}
     	}
     }
  
