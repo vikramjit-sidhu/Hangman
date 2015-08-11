@@ -69,7 +69,7 @@ public class Hangman extends ConsoleProgram {
  * @param prompt
  * @return
  */
-    private char readAlphabet(String prompt) {
+    private char readUpperCaseAlphabet(String prompt) {
     	
     }
  
