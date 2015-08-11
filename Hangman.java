@@ -39,7 +39,7 @@ public class Hangman extends ConsoleProgram {
     		printCurrentlyGuessedWord(wordGuessedSoFar);
     		printCurrentChancesRemaining();
     		char userInput = getUserInput();
-    		wordGuessedSoFar =  
+    		wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, userInput); 
     		numGuessesLeft--;
     	}
     }
