@@ -30,7 +30,8 @@ public class Hangman extends ConsoleProgram {
     	String wordToGuess = getGameWord();
     	String wordGuessedSoFar = generateGuessedWord(wordToGuess.length());
     	while (numGuessesLeft > 0) {
-    		
+    		printCurrentlyGuessedWord(wordGuessedSoFar);
+    		char userInput = 
     		
     		numGuessesLeft--;
     	}
