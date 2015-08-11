@@ -40,7 +40,7 @@ public class Hangman extends ConsoleProgram {
     		printCurrentChancesRemaining();
     		char userInput = getUserInput();
     		if (checkCharInString(wordToGuess, userInput)) {
-    			println()
+    			println("That guess is correct");
     		}
     		else {
     			println("There are no " + userInput + "'s in the word");
