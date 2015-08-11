@@ -73,6 +73,9 @@ public class Hangman extends ConsoleProgram {
  */
     private char readUpperCaseAlphabet(String prompt) {
     	String userInput;
+    	while (true) {
+    		
+    	}
     }
  
 /**	Creates a String of form "-----" with length of the parameter passed
