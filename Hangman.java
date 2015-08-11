@@ -110,6 +110,7 @@ public class Hangman extends ConsoleProgram {
     }
     
 /**	Given a character as input, convert it to upper case and return
+ * 	If the character is already upper case, return as it is, if it is lower case converting it.
  * @param ch The character input which is converted to upper case
  * @return the upper case value of the character input
  */
