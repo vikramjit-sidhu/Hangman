@@ -59,6 +59,7 @@ public class Hangman extends ConsoleProgram {
  * 	In case the alphabet entered is lower case, converting it to upper case */    
     private char getUserInput() {
     	char userChar = (char) readInt("Your guess: ");
+    	return userChar;
     }
  
 /**	Creates a String of form "-----" with length of the parameter passed
