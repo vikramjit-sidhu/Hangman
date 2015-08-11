@@ -77,8 +77,6 @@ public class Hangman extends ConsoleProgram {
     }
     
     
-
-    
 /**	Print the welcome message to the user on console */
     private void outputWelcomeString() {
     	println("Welcome to Hangman !");
