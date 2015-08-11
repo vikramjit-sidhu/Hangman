@@ -93,7 +93,7 @@ public class Hangman extends ConsoleProgram {
     			continue;
     		}
     		break;
-    		alphabetEntered = 
+    		alphabetEntered = convertToUpperCase(charEntered);
     	}
     	return alphabetEntered;
     }
