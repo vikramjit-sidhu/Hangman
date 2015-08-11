@@ -39,6 +39,12 @@ public class Hangman extends ConsoleProgram {
     		printCurrentlyGuessedWord(wordGuessedSoFar);
     		printCurrentChancesRemaining();
     		char userInput = getUserInput();
+    		if (checkCharInString(wordToGuess, userInput)) {
+    			println()
+    		}
+    		else {
+    			println("There are no " + userInput + "'s in the word");
+    		}
     		wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, userInput); 
     		numGuessesLeft--;
     	}
@@ -54,6 +60,10 @@ public class Hangman extends ConsoleProgram {
  * @return The updated word guessed so far, with userInput char replaced at the required positions.
  */
     private String modifyGuessedWordFromUserInput(String wordGuessedSoFar, char userInput) {
+    	
+    }
+    
+    private int checkCharInString() {
     	
     }
 
