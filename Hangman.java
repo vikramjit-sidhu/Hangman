@@ -50,7 +50,7 @@ public class Hangman extends ConsoleProgram {
  * 	where userInput was found with the character.
  *     
  * @param wordGuessedSoFar The word guessed so far, this is either updated and returned or returned as it is
- * @param userInput
+ * @param userInput	The character entered by the user which has to be found in the wordToGuess
  * @return
  */
     private String modifyGuessedWordFromUserInput(String wordGuessedSoFar, char userInput) {
