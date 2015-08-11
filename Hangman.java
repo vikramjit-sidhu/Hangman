@@ -76,6 +76,7 @@ public class Hangman extends ConsoleProgram {
  */
     private char readUpperCaseAlphabet(String prompt) {
     	String userInput;
+    	char alphabetEntered;
     	while (true) {
     		userInput = readLine(prompt);
     		/* The user input should be a single char, i.e. a string of length 1 */
@@ -83,6 +84,7 @@ public class Hangman extends ConsoleProgram {
     			println(INVALID_LENGTH_GUESS_MESSAGE);
     			continue;
     		}
+    		
     		
     	}
     }
