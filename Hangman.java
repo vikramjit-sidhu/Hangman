@@ -51,7 +51,7 @@ public class Hangman extends ConsoleProgram {
  * @param userInput
  * @return
  */
-    private String modifyGuessedWordFromUserInput(String wordGuessedSoFar, String wordToGuess char userInput) {
+    private String modifyGuessedWordFromUserInput(String wordGuessedSoFar, char userInput) {
     	
     }
 
