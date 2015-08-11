@@ -50,10 +50,13 @@ public class Hangman extends ConsoleProgram {
     	}
     }
     
-/**		
- * @return
+/** Check if the character ch is present in the String word
+ * 	Using indexOf built in String method for this, it returns -1 if not found
+ * @param word The word which has to be checked to contain the char
+ * @param ch The character to check inside the string
+ * @return true if ch is contained in word
  */
-    private boolean checkCharInString() {
+    private boolean checkCharInString(String word, char ch) {
     	
     }
     
