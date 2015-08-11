@@ -78,10 +78,12 @@ public class Hangman extends ConsoleProgram {
     	String userInput;
     	while (true) {
     		userInput = readLine(prompt);
+    		/* The user input should be a single char, i.e. a string of length 1 */
     		if (userInput.length() > 1) {
     			println(INVALID_LENGTH_GUESS_MESSAGE);
     			continue;
     		}
+    		
     	}
     }
  
