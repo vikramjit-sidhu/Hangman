@@ -85,7 +85,10 @@ public class Hangman extends ConsoleProgram {
     			continue;
     		}
     		char charEntered = userInput.charAt(0);
-    		if (!isAlphabeticChar())
+    		if (!isAlphabeticChar(charEntered)) {
+    			println();
+    			continue
+    		}
     		
     	}
     }
