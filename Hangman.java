@@ -48,7 +48,7 @@ public class Hangman extends ConsoleProgram {
  * 	If the character userInput is in the word wordToGuess, update wordToGuess by replacing all occurances
  * 	of userInput with - (WORD_BLANK_CHAR) correspondingly in the wordGuessedSoFar variable, replace all places
  * 	where userInput was found with the character.
- *     
+ *  If userInput is not found in wordToGuess, return wordGuessedSoFar as it is,
  * @param wordGuessedSoFar The word guessed so far, this is either updated and returned or returned as it is
  * @param userInput	The character entered by the user which has to be found in the wordToGuess
  * @return The updated word guessed so far, with userInput char replaced at the required positions.
