@@ -59,8 +59,18 @@ public class Hangman extends ConsoleProgram {
  * 	Handling the case that the character entered is not a valid alphabetical character
  * 	In case the alphabet entered is lower case, converting it to upper case */    
     private char getUserInput() {
-    	char userChar = readChar("Your guess: ");
+    	char userChar = readAlphabet("Your guess: ");
     	return userChar;
+    }
+    
+/** Read a character as input from the user.
+ * 	Since a line has to be read (i.e. a String), checking if its length is 1
+ * 	The user is prompted for input until he enters a  	
+ * @param prompt
+ * @return
+ */
+    private char readAlphabet(String prompt) {
+    	
     }
  
 /**	Creates a String of form "-----" with length of the parameter passed
