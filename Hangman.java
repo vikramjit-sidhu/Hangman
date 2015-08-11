@@ -60,7 +60,7 @@ public class Hangman extends ConsoleProgram {
     	if (word.indexOf(ch) != -1) {
     		return true;
     	}
-    	return false
+    	return false;
     }
     
 /**	Update the word guessed so far with the latest character that the user has entered if she has guessed correctly.
