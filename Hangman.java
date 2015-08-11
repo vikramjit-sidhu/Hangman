@@ -89,7 +89,7 @@ public class Hangman extends ConsoleProgram {
     		}
     		char charEntered = userInput.charAt(0);
     		if (!isAlphabeticChar(charEntered)) {
-    			println();
+    			println(INVALID_CHAR_ENTERED_GUESS);
     			continue;
     		}
     		
