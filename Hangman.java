@@ -101,7 +101,7 @@ public class Hangman extends ConsoleProgram {
  * @return true if it is an alphabetical char
  */
     private boolean isAlphabeticChar(char ch) {
-    	if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z') {
+    	if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')) {
     		return true;
     	}
     	return false;
