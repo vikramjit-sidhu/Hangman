@@ -67,9 +67,9 @@ public class Hangman extends ConsoleProgram {
  * 	Since a line has to be read (i.e. a String), checking if its length is 1,
  * 	the user is prompted for input until he enters a string of length 1
  * 	The length 1 string is then checked to see if it is a valid alphabet (a-z or A-Z),
- * 	if a valid alphabet is not entered, prompting the user for input again
- * @param prompt
- * @return
+ * 	if a valid alphabet is not entered, prompting the user for input again.
+ * @param prompt The prompt to display to the user for initial input
+ * @return	An upper case alphabetical character (A-Z) 
  */
     private char readUpperCaseAlphabet(String prompt) {
     	
