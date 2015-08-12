@@ -34,6 +34,7 @@ public class Hangman extends ConsoleProgram {
     private void playHangmanGame() {
     	outputWelcomeString();
     	String wordToGuess = getGameWord();
+    	/*	*/
     	remainingWordToGuess = wordToGuess;
     	String wordGuessedSoFar = generateGuessedWord(wordToGuess.length());
     	while (numGuessesLeft > 0) {
@@ -230,6 +231,7 @@ public class Hangman extends ConsoleProgram {
     private RandomGenerator randomGen = RandomGenerator.getInstance();
     
 /**	This word is initially equal to the word randomly chosen from the lexical class, as the user makes her
- * 	guesses, it is updated, at each point it shows the characters remaining for the user to guess */    
+ * 	guesses, it is updated, at each point it shows the characters remaining for the user to guess. 
+ * 	It is initialized in playHangmanGame() */    
     private String remainingWordToGuess;
 }
