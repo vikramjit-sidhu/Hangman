@@ -79,6 +79,11 @@ public class Hangman extends ConsoleProgram {
  */
     private String modifyGuessedWordFromUserInput(String wordGuessedSoFar, char userInput) {
     	
+    	int currentIndex = 0;
+    	int indexCharFound;
+    	String updatedGuessWord = ""
+    			
+    	return updatedGuessWord;
     }
     
     
