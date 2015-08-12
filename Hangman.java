@@ -67,7 +67,7 @@ public class Hangman extends ConsoleProgram {
     	return false;
     }
     
-/**	The user has guessed a character correctly, this character is in wordToGuess instance variable and will 
+/**	The user has guessed a character correctly, this character is in remainingWordToGuess instance variable and will 
  * 	replace the blanks (default char '-') in the wordGuessedSoFar, the positions it replaces the blanks in is
  * 	the same positions it occurs in the wordToGuess.
  * 
