@@ -90,7 +90,7 @@ public class Hangman extends ConsoleProgram {
     	String updatedGuessWord = "";
     	
     	while (true) {
-    		indexCharFound = wordToGuess.indexOf(userInput, lastIndexFound);
+    		indexCharFound = remainingWordToGuess.indexOf(userInput, lastIndexFound);
     		if (indexCharFound == -1) {
     			break;
     		}
