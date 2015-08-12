@@ -84,7 +84,10 @@ public class Hangman extends ConsoleProgram {
     	int indexCharFound;
     	/* This is the word which is returned as the updated guessed word */
     	String updatedGuessWord = "";
-    			
+    	
+    	while (true) {
+    		indexCharFound = wordToGuess.indexOf(userInput, lastIndexFound);
+    	}
     	return updatedGuessWord;
     }
     
