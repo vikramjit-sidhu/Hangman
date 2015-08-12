@@ -1,6 +1,8 @@
 /*
  * File: Hangman.java
  * ------------------
+ * This part handles the console part of the hangman game, where the user enters her input
+ * and the number of guesses are kept track of.
  * 
  * Most of the printing to the console happens in the playHangmanGame method
  */
