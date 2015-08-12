@@ -47,6 +47,9 @@ public class Hangman extends ConsoleProgram {
     			println("That guess is correct");
     			wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, userInput);
     			/* Check if the word has been completely guessed */
+    			if (wordGuessedSoFar.equals(wordToGuess)) {
+    				
+    			}
     		}
     		else {
     			println("There are no " + userInput + "'s in the word");
