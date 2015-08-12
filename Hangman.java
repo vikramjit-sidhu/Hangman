@@ -229,5 +229,5 @@ public class Hangman extends ConsoleProgram {
     private RandomGenerator randomGen = RandomGenerator.getInstance();
     
 /**	The word which is randomly chosen from the lexical class, which has to be guessed by the user */    
-    private String wordToGuess;
+    private String remainingWordToGuess;
 }
