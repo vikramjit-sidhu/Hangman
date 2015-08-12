@@ -71,7 +71,7 @@ public class Hangman extends ConsoleProgram {
  * 	replace the blanks (default char '-') in the wordGuessedSoFar, the positions it replaces the blanks in is
  * 	the same positions it occurs in the wordToGuess.
  * 
- * 	After finishing the replacing, update the wordToGuess by replacing the occurrence of that character with
+ * 	After finishing the replacing, update the remainingWordToGuess by replacing the occurrence of that character with
  * 	blanks, this is done so that guessing the same char again does not throw errors.
  * 
  * 	Using the indexOf string method to find the occurrence of the char, it is updated at the new string by taking
