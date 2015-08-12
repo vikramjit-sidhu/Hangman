@@ -104,6 +104,7 @@ public class Hangman extends ConsoleProgram {
     		/* Taking the substring upto the latest position that the char is found, from the last position that
     		 * the char was found at, appending char at the end */
     		updatedGuessWord += wordGuessedSoFar.substring(lastIndexFound, indexCharFound) + userInput;
+    		lastIndexFound = indexCharFound + 1;
     	}
     	/* Taking care of any trailing chars that may be left */
     	updatedGuessWord += wordGuessedSoFar.substring(lastIndexFound);
