@@ -106,11 +106,12 @@ public class Hangman extends ConsoleProgram {
     
 /**	Update the remainingWordToGuess instance variable.
  * 	if the user successfully guesses a char, updating the remaining word to guess so that in the next guesses, 
- * 	the same char does not match again, simply replacing all occurances of that character with the blank (-) char constant
- * @param userInput
+ * 	the same char does not match again.
+ *  simply replacing all occurrences of the character passed with the blank (-) char constant
+ * @param userInput The character to replace with blank char
  */
     private void updateRemainingWordToGuess(char userInput) {
-    	
+    	remainingWordToGuess.replace(userInput, )
     }
     
     
