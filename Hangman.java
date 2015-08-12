@@ -78,10 +78,10 @@ public class Hangman extends ConsoleProgram {
  * @return The updated word guessed so far, with userInput char replaced at the required positions.
  */
     private String modifyGuessedWordFromUserInput(String wordGuessedSoFar, char userInput) {
-    	
+    	/* The last index that the char was found at, initially setting to 0 */
     	int currentIndex = 0;
     	int indexCharFound;
-    	String updatedGuessWord = ""
+    	String updatedGuessWord = "";
     			
     	return updatedGuessWord;
     }
