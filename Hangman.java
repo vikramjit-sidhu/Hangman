@@ -66,8 +66,13 @@ public class Hangman extends ConsoleProgram {
 /**	The user has guessed a character correctly, this character is in wordToGuess instance variable and will 
  * 	replace the blanks (default char '-') in the wordGuessedSoFar, the positions it replaces the blanks in is
  * 	the same positions it occurs in the wordToGuess.
+ * 
  * 	After finishing the replacing, update the wordToGuess by replacing the occurrence of that character with
- * 	blanks, this is done so that guessing the same char again does not throw errors  
+ * 	blanks, this is done so that guessing the same char again does not throw errors.
+ * 
+ * 	Using the indexOf string method to find the occurrence of the char, it is updated at the new string by taking
+ * 	the substring.
+ *   
  * @param wordGuessedSoFar The word guessed so far, this is updated with blanks (-) replaced with the character the user has guessed
  * @param userInput	The character entered by the user which has to be replaced at the positions it matches in the wortToGuess in the wordGuessedSoFar
  * @return The updated word guessed so far, with userInput char replaced at the required positions.
@@ -101,8 +106,10 @@ public class Hangman extends ConsoleProgram {
     }
     
 /** Read a alphabet as input from the user.
+ * 
  * 	Since a line has to be read (i.e. a String), checking if its length is 1,
  * 	the user is prompted for input until he enters a string of length 1
+ * 
  * 	The length 1 string is then checked to see if it is a valid alphabet (a-z or A-Z),
  * 	if a valid alphabet is not entered, prompting the user for input again.
  * @param prompt The prompt to display to the user for initial input
