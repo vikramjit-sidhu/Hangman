@@ -87,6 +87,10 @@ public class Hangman extends ConsoleProgram {
     	
     	while (true) {
     		indexCharFound = wordToGuess.indexOf(userInput, lastIndexFound);
+    		if (indexCharFound == -1) {
+    			break;
+    		}
+    		updatedGuessWord += wordGuessedSoFar.substring(lastIndexFound, indexCharFound) + userInput;
     	}
     	return updatedGuessWord;
     }
