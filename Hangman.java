@@ -63,13 +63,13 @@ public class Hangman extends ConsoleProgram {
     	return false;
     }
     
-/**	Update the word guessed so far with the latest character that the user has entered if she has guessed correctly.
- * 	If the character userInput is in the word wordToGuess, update wordToGuess by replacing all occurances
- * 	of userInput with - (WORD_BLANK_CHAR) correspondingly in the wordGuessedSoFar variable, replace all places
- * 	where userInput was found with the character.
- *  If userInput is not found in wordToGuess, return wordGuessedSoFar as it is.
- * @param wordGuessedSoFar The word guessed so far, this is either updated and returned or returned as it is
- * @param userInput	The character entered by the user which has to be found in the wordToGuess
+/**	The user has guessed a character correctly, this character is in wordToGuess instance variable and will 
+ * 	replace the blanks (default char '-') in the wordGuessedSoFar, the positions it replaces the blanks in is
+ * 	the same positions it occurs in the wordToGuess.
+ * 	After finishing the replacing, update the wordToGuess by replacing the occurrence of that character with
+ * 	blanks, this is done so that guessing the same char again does not throw errors  
+ * @param wordGuessedSoFar The word guessed so far, this is updated with blanks (-) replaced with the character the user has guessed
+ * @param userInput	The character entered by the user which has to be replaced at the positions it matches in the wortToGuess in the wordGuessedSoFar
  * @return The updated word guessed so far, with userInput char replaced at the required positions.
  */
     private String modifyGuessedWordFromUserInput(String wordGuessedSoFar, char userInput) {
