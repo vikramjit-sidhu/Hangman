@@ -90,8 +90,10 @@ public class Hangman extends ConsoleProgram {
     		if (indexCharFound == -1) {
     			break;
     		}
+    		/* Taking the substring of the */
     		updatedGuessWord += wordGuessedSoFar.substring(lastIndexFound, indexCharFound) + userInput;
     	}
+    	updatedGuessWord += wordGuessedSoFar.substring(lastIndexFound);
     	return updatedGuessWord;
     }
     
