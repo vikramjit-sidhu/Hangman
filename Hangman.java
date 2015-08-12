@@ -104,6 +104,10 @@ public class Hangman extends ConsoleProgram {
     	return updatedGuessWord;
     }
     
+    private void updateRemainingWordToGuess(char userInput) {
+    	
+    }
+    
     
 /**	Print the welcome message to the user on console */
     private void outputWelcomeString() {
