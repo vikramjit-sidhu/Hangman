@@ -100,6 +100,7 @@ public class Hangman extends ConsoleProgram {
     	}
     	/* Taking care of any trailing chars that may be left */
     	updatedGuessWord += wordGuessedSoFar.substring(lastIndexFound);
+    	updateRemainingWordToGuess(userInput);
     	return updatedGuessWord;
     }
     
