@@ -2,6 +2,7 @@
  * File: Hangman.java
  * ------------------
  * 
+ * Most of the printing to the console happens in the playHangmanGame method
  */
 
 import acm.graphics.*;
@@ -48,7 +49,7 @@ public class Hangman extends ConsoleProgram {
     			wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, userInput);
     			/* Check if the word has been completely guessed */
     			if (wordGuessedSoFar.equals(wordToGuess)) {
-    				
+    				println("You guessed the word")
     			}
     		}
     		else {
