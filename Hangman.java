@@ -93,6 +93,7 @@ public class Hangman extends ConsoleProgram {
     		/* Taking the substring of the */
     		updatedGuessWord += wordGuessedSoFar.substring(lastIndexFound, indexCharFound) + userInput;
     	}
+    	/* Taking care of any trailing chars that may be left */
     	updatedGuessWord += wordGuessedSoFar.substring(lastIndexFound);
     	return updatedGuessWord;
     }
