@@ -51,7 +51,7 @@ public class Hangman extends ConsoleProgram {
     			if (wordGuessedSoFar.equals(wordToGuess)) {
     				println("You guessed the word: " + wordToGuess);
     				println("VICTORY!!!");
-    				
+    				break;
     			}
     		}
     		else {
