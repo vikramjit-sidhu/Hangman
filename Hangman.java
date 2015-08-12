@@ -80,7 +80,9 @@ public class Hangman extends ConsoleProgram {
     private String modifyGuessedWordFromUserInput(String wordGuessedSoFar, char userInput) {
     	/* The last index that the char was found at, initially setting to 0 */
     	int currentIndex = 0;
+    	/* The next position at which the char is found */
     	int indexCharFound;
+    	/* This is the word which is returned as the updated guessed word */
     	String updatedGuessWord = "";
     			
     	return updatedGuessWord;
