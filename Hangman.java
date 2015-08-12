@@ -111,7 +111,7 @@ public class Hangman extends ConsoleProgram {
  * @param userInput The character to replace with blank char
  */
     private void updateRemainingWordToGuess(char userInput) {
-    	remainingWordToGuess.replace(userInput, )
+    	remainingWordToGuess.replace(userInput, WORD_BLANK_CHAR);
     }
     
     
