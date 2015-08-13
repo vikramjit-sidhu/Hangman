@@ -31,6 +31,7 @@ public class Hangman extends ConsoleProgram {
  */
     public void run() {
     	canvas = new HangmanCanvas();
+    	canvas.reset();
     	add(canvas);
     	playHangmanGame();
     }
