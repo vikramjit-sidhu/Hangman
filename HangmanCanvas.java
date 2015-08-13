@@ -74,7 +74,7 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void calculateSetScaffoldDimensions() {
-		scaffoldTopX = (windowWidth / 2) - BEAM_LENGTH ;
+		scaffoldTopX = (windowWidth / 2) - BEAM_LENGTH;
 	}
 	
 	private void drawScaffold() {
