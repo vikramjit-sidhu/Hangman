@@ -8,6 +8,8 @@ import acm.graphics.*;
 
 public class HangmanCanvas extends GCanvas {
 
+	private static final int WIDTH;
+	
 /* Constants for the simple version of the picture (in pixels) */
 	private static final int SCAFFOLD_HEIGHT = 400;	//earlier value was 360
 	private static final int BEAM_LENGTH = 144;
