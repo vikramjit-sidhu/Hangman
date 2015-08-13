@@ -25,9 +25,11 @@ public class HangmanCanvas extends GCanvas {
 	public void reset() {
 		removeAll();
 		setWindowDimensions();
+		/* Draw the initial parts of the game */
 		drawScaffold();
 		drawBeam();
 		drawRope();
+		
 	}
 
 /**
