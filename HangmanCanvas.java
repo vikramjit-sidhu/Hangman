@@ -30,6 +30,8 @@ public class HangmanCanvas extends GCanvas {
 		drawBeam();
 		drawRope();
 		
+		/* Set up the labels which keep track of the incorrect guesses and word so far */
+		
 	}
 
 /**
