@@ -74,7 +74,8 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void calculateScaffoldLabelsOffset() {
-		/*  */
+		/* The head has to be at the centre of the window, hence taking into account 
+		 * the beam length, this is the x position of the scaffold  */
 		scaffoldTopX = (windowWidth / 2) - BEAM_LENGTH;
 	}
 	
