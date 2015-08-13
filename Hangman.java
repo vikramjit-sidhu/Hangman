@@ -27,6 +27,8 @@ public class Hangman extends ConsoleProgram {
 /**	The error message displayed if the user enters a non-alphabetical character as her guess */	
 	private static final String INVALID_CHAR_ENTERED_MESSAGE = "Please enter only an alphabetical character as your guess";
 	
+/**	Creating an instance of the hangman canvas and adding it to the screen
+ */
     public void run() {
     	canvas = new HangmanCanvas();
     	add(canvas);
