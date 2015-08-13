@@ -43,6 +43,7 @@ public class Hangman extends ConsoleProgram {
     	String wordToGuess = getGameWord();
     	/* Setting the word left to guess as initially the whole word */
     	remainingWordToGuess = wordToGuess;
+    	
     	/* The initial blank word that the user has to guess set to be blanks (eg. ---- ) */
     	String wordGuessedSoFar = generateGuessedWord(wordToGuess.length());
     	
