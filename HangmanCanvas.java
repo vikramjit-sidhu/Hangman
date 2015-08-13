@@ -96,7 +96,7 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void addWordGuessedLabel() {
-		wordGuessedSoFarLabel = new GLabel("", 20, 10);
+		wordGuessedSoFarLabel = new GLabel("", 20, 20);
 		add(wordGuessedSoFarLabel);
 	}
 	
