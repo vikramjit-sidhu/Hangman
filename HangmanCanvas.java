@@ -46,6 +46,8 @@ public class HangmanCanvas extends GCanvas {
 		/* You fill this in */
 	}
 
-
-
+	private void drawScaffold() {
+		
+	}
+	
 }
