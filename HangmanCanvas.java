@@ -24,7 +24,7 @@ public class HangmanCanvas extends GCanvas {
 	private static final int FOOT_LENGTH = 28;
 	
 /** The X offset for the labels which keep track of the incorrect guesses,
- *  and the correct guesses made */	
+ *  and the word guessed so far*/	
 	private static final int LABEL_X_OFFSET = 50;
 	
 /** Resets the display so that only the scaffold appears */
