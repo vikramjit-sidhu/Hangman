@@ -63,7 +63,7 @@ public class HangmanCanvas extends GCanvas {
 		remove(wordGuessedSoFarLabel);
 		String currCharsGuessed = oldCharsGuessed + letter;
 		wordGuessedSoFarLabel.setLabel(currCharsGuessed);
-		add(wordGuessedSoFarLabel;)
+		add(wordGuessedSoFarLabel);
 	}
 
 /** Sets the instance variables windowWidth and windowWidth,
