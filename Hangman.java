@@ -48,8 +48,8 @@ public class Hangman extends ConsoleProgram {
     	while (numGuessesLeft > 0) {
     		printCurrentlyGuessedWord(wordGuessedSoFar);
     		printCurrentChancesRemaining();
-    		char userInput = getUserInput();
     		
+    		char userInput = getUserInput();
     		/* Check the char guessed by user is in word remaining to guess */
     		if (checkCharInString(wordToGuess, userInput)) {
     			println("That guess is correct");
