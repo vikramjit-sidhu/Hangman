@@ -82,7 +82,7 @@ public class HangmanCanvas extends GCanvas {
 	
 	
 	private void addIncorrectGuessLabel() {
-		incorrectGuessesLabel = new GLabel("");
+		incorrectGuessesLabel = new GLabel("", 10, 10);
 	}
 	
 	private void addWordGuessedLabel() {
