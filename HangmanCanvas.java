@@ -4,6 +4,8 @@
  * This file keeps track of the Hangman display.
  */
 
+import java.awt.Font;
+
 import acm.graphics.*;
 
 public class HangmanCanvas extends GCanvas {
@@ -83,6 +85,7 @@ public class HangmanCanvas extends GCanvas {
 	
 	private void addIncorrectGuessLabel() {
 		incorrectGuessesLabel = new GLabel("", 10, 10);
+		add(incorrectGuessesLabel);
 	}
 	
 	private void addWordGuessedLabel() {
