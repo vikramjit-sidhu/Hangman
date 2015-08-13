@@ -81,6 +81,10 @@ public class HangmanCanvas extends GCanvas {
 		/* The head has to be at the centre of the window, hence taking into account 
 		 * the beam length, this is the x position of the scaffold  */
 		scaffoldTopX = (windowWidth / 2) - BEAM_LENGTH;
+		
+		double wordGuessedSoFarLabelHeight = wordGuessedSoFarLabel.getHeight();
+		double incorrectGuessesLabelHeight = incorrectGuessesLabel.getHeight();
+		int spaceRemY = windowWidth - SCAFFOLD_HEIGHT 
 	}
 	
 	private void drawScaffold() {
