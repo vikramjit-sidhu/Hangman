@@ -52,7 +52,7 @@ public class HangmanCanvas extends GCanvas {
 		
 	}
 	
-/** The width and height of the application window, where the elements are drawn	*/	
+/** The width and height of the application window, where the elements are drawn */	
 	private int windowWidth;
 	private int windowHeight;
 }
