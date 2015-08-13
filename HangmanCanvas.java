@@ -23,6 +23,8 @@ public class HangmanCanvas extends GCanvas {
 	private static final int LEG_LENGTH = 108;
 	private static final int FOOT_LENGTH = 28;
 	
+	private static final int LABEL_X_OFFSET = 50;
+	
 /** Resets the display so that only the scaffold appears */
 	public void reset() {
 		removeAll();
