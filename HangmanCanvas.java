@@ -8,7 +8,7 @@ import acm.graphics.*;
 
 public class HangmanCanvas extends GCanvas {
 
-	private static final int WIDTH;
+	private static final int WIDTH 
 	
 /* Constants for the simple version of the picture (in pixels) */
 	private static final int SCAFFOLD_HEIGHT = 400;	//earlier value was 360
@@ -44,6 +44,7 @@ public class HangmanCanvas extends GCanvas {
  * guesses that appears at the bottom of the window.
  */
 	public void noteIncorrectGuess(char letter) {
+		
 	}
 
 	private void drawScaffold() {
