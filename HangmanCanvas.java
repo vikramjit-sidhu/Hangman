@@ -59,11 +59,11 @@ public class HangmanCanvas extends GCanvas {
  * guesses that appears at the bottom of the window.
  */
 	public void noteIncorrectGuess(char letter) {
-		String oldCharsGuessed = wordGuessedSoFarLabel.getLabel();
-		remove(wordGuessedSoFarLabel);
+		String oldCharsGuessed = incorrectGuessesLabel.getLabel();
+		remove(incorrectGuessesLabel);
 		String currCharsGuessed = oldCharsGuessed + letter;
-		wordGuessedSoFarLabel.setLabel(currCharsGuessed);
-		add(wordGuessedSoFarLabel);
+		incorrectGuessesLabel.setLabel(currCharsGuessed);
+		add(incorrectGuessesLabel);
 	}
 
 /** Sets the instance variables windowWidth and windowWidth,
