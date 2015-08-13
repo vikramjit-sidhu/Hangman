@@ -64,6 +64,23 @@ public class HangmanCanvas extends GCanvas {
 		
 	}
 	
+	private void drawBeam() {
+		
+	}
+	
+	private void drawRope() {
+		
+	}
+	
+	
+	private void addIncorrectGuessLabel() {
+		
+	}
+	
+	private void addWordGuessedLabel() {
+		
+	}
+	
 /** The label displaying the word which the user has guessed so far */
 	private GLabel wordGuessedSoFar;
 	
