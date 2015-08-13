@@ -104,5 +104,7 @@ public class HangmanCanvas extends GCanvas {
 	private int windowHeight;
 	
 /** The x,y co-ordinates of the top of the scaffold, 
- *  every co-ordinate is calculated relative to them */	
+ *  every co-ordinate is calculated relative to them */
+	private double scaffoldTopX;
+	private double scaffoldTopY;
 }
