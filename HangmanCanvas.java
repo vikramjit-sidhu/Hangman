@@ -27,7 +27,7 @@ public class HangmanCanvas extends GCanvas {
 		setWindowDimensions();
 		/* The scaffold is the only element whose co-ordinates are calculated, 
 		 * the co-ordinates of the remaining elements are calculated relative to it*/
-//		calculateScaffoldDimensions();
+		calculateSetScaffoldDimensions();
 		
 		/* Draw the initial parts of the game */
 		drawScaffold();
@@ -62,6 +62,10 @@ public class HangmanCanvas extends GCanvas {
 	private void setWindowDimensions() {
 		windowWidth = getWidth();
 		windowHeight = getHeight();
+	}
+	
+	private void calculateSetScaffoldDimensions() {
+		
 	}
 	
 	private void drawScaffold() {
