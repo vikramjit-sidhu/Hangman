@@ -48,6 +48,11 @@ public class HangmanCanvas extends GCanvas {
 		
 	}
 
+/** Sets the instance variables to the height and width of the application window */	
+	private void setWindowDimensions() {
+		
+	}
+	
 	private void drawScaffold() {
 		
 	}
