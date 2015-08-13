@@ -257,4 +257,8 @@ public class Hangman extends ConsoleProgram {
  * 	guesses, it is updated, at each point it shows the characters remaining for the user to guess. 
  * 	It is initialized in playHangmanGame() */    
     private String remainingWordToGuess;
+    
+/**	The canvas where the hangman is drawn, it's methods are called after an incorrect guess or to update the word 
+ * 	guesed so far*/
+    private HangmanCanvas canvas;
 }
