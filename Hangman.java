@@ -28,6 +28,7 @@ public class Hangman extends ConsoleProgram {
 	private static final String INVALID_CHAR_ENTERED_MESSAGE = "Please enter only an alphabetical character as your guess";
 	
     public void run() {
+    	canvas = new HangmanCanvas();
     	playHangmanGame();
     }
     
