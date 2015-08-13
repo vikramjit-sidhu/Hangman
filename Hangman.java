@@ -45,6 +45,7 @@ public class Hangman extends ConsoleProgram {
     	remainingWordToGuess = wordToGuess;
     	/* The initial blank word that the user has to guess set to be blanks (eg. ---- ) */
     	String wordGuessedSoFar = generateGuessedWord(wordToGuess.length());
+    	
     	while (numGuessesLeft > 0) {
     		printCurrentlyGuessedWord(wordGuessedSoFar);
     		printCurrentChancesRemaining();
