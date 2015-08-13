@@ -90,6 +90,7 @@ public class HangmanCanvas extends GCanvas {
 	
 	private void addWordGuessedLabel() {
 		wordGuessedSoFarLabel = new GLabel("", 20, 10);
+		add(wordGuessedSoFarLabel);
 	}
 	
 /** The number of incorrect guesses made so far, on the basis of this number, the various
