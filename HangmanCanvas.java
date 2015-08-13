@@ -73,7 +73,8 @@ public class HangmanCanvas extends GCanvas {
 		windowHeight = getHeight();
 	}
 	
-	private void calculateSetScaffoldDimensions() {
+	private void calculateScaffoldLabelsOffset() {
+		/*  */
 		scaffoldTopX = (windowWidth / 2) - BEAM_LENGTH;
 	}
 	
