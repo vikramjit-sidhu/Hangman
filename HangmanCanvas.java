@@ -82,7 +82,7 @@ public class HangmanCanvas extends GCanvas {
 	
 	
 	private void addIncorrectGuessLabel() {
-		
+		incorrectGuessesLabel = new GLabel();
 	}
 	
 	private void addWordGuessedLabel() {
@@ -94,10 +94,10 @@ public class HangmanCanvas extends GCanvas {
 	private int incorrectGuessesMade = 0;
 	
 /** The label displaying the word which the user has guessed so far */
-	private GLabel wordGuessedSoFar;
+	private GLabel wordGuessedSoFarLabel;
 	
 /**	The label recording all the incorrect guesses made by the user */
-	private GLabel incorrectGuesses;
+	private GLabel incorrectGuessesLabel;
 	
 /** The width and height of the application window, where the elements are drawn */	
 	private int windowWidth;
