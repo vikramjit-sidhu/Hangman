@@ -48,7 +48,7 @@ public class Hangman extends ConsoleProgram {
     	
     	/* The initial blank word that the user has to guess set to be blanks (eg. ---- ) */
     	String wordGuessedSoFar = generateGuessedWord(wordToGuess.length());
-    	/* call method to update the canvas */
+    	/* call method to display the word with blanks for the first time */
 		canvas.displayWord(wordGuessedSoFar);
     	
     	while (numGuessesLeft > 0) {
