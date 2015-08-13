@@ -63,6 +63,7 @@ public class Hangman extends ConsoleProgram {
     		}
     		else {
     			println("There are no " + userInput + "'s in the word");
+    			canvas.noteIncorrectGuess(userInput);
     		}
     		numGuessesLeft--;
     	}
