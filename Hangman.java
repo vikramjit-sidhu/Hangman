@@ -56,6 +56,7 @@ public class Hangman extends ConsoleProgram {
     			wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, userInput);
     			/* call method to update the canvas */
     			canvas.displayWord(wordGuessedSoFar);
+
     			/* Check if the word has been completely guessed */
     			if (wordGuessedSoFar.equals(wordToGuess)) {
     				println("You guessed the word: " + wordToGuess);
