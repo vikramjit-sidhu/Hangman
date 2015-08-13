@@ -54,6 +54,7 @@ public class Hangman extends ConsoleProgram {
     		if (checkCharInString(wordToGuess, userInput)) {
     			println("That guess is correct");
     			wordGuessedSoFar = modifyGuessedWordFromUserInput(wordGuessedSoFar, userInput);
+    			
     			/* call method to update the canvas */
     			canvas.displayWord(wordGuessedSoFar);
 
