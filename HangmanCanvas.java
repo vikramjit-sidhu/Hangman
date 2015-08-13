@@ -57,6 +57,9 @@ public class HangmanCanvas extends GCanvas {
 		
 	}
 	
+/** The label displaying the word which the user has guessed so far */
+	private GLabel wordGuessedSoFar;
+	
 /** The width and height of the application window, where the elements are drawn */	
 	private int windowWidth;
 	private int windowHeight;
