@@ -26,6 +26,8 @@ public class HangmanCanvas extends GCanvas {
 		removeAll();
 		setWindowDimensions();
 		drawScaffold();
+		drawBeam();
+		drawRope();
 	}
 
 /**
