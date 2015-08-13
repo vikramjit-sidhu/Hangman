@@ -81,6 +81,9 @@ public class HangmanCanvas extends GCanvas {
 		
 	}
 	
+/** */
+	private int guessesMade = 0;
+	
 /** The label displaying the word which the user has guessed so far */
 	private GLabel wordGuessedSoFar;
 	
