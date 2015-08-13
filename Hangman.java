@@ -36,7 +36,7 @@ public class Hangman extends ConsoleProgram {
     }
     
 /**	This is the main method which creates the console part of the hangman game
- *  
+ *  The methods to update the canvas, in case of correct or incorrect guess are called here
  */
     private void playHangmanGame() {
     	outputWelcomeString();
