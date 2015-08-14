@@ -155,7 +155,7 @@ public class HangmanCanvas extends GCanvas {
 	private void addWordGuessedLabel() {
 		setWordGuessedPoint();
 		wordGuessedSoFarLabel = new GLabel("");
-		wordGuessedSoFarLabel.setLocation(pt);
+		wordGuessedSoFarLabel.setLocation(wordGuessedSoFarStartPoint);
 		add(wordGuessedSoFarLabel);
 	}
 	
