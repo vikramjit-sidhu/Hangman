@@ -90,7 +90,8 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void drawScaffold() {
-		GLine scaffold = new GLine();
+		double scaffoldLowerY = scaffoldTopY + SCAFFOLD_HEIGHT;
+		GLine scaffold = new GLine(scaffoldTopX, scaffoldTopY, scaffoldTopX, );
 		
 	}
 	
