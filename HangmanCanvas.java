@@ -89,6 +89,13 @@ public class HangmanCanvas extends GCanvas {
 		
 	}
 	
+/** Draw the scaffold, i.e. the 'pole' which supports the hanging
+ * 	It is a simple GLine object added to screen
+ * 
+ * 	The top x and y co-ordinates are already ready as instance variables,
+ * 	since it is a vertical line, the x co-ordinate remains the same, only 
+ * 	the lower y co-ordinate is calculated which has the height added to it.		
+ */
 	private void drawScaffold() {
 		double scaffoldLowerY = scaffoldTopY + SCAFFOLD_HEIGHT;
 		GLine scaffold = new GLine(scaffoldTopX, scaffoldTopY, scaffoldTopX, scaffoldLowerY);
