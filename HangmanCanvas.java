@@ -119,6 +119,12 @@ public class HangmanCanvas extends GCanvas {
 		add(beam);
 	}
 	
+/** Add the rope which the person is hung on 
+ * 	
+ * 	It is a vertical line starting from the ending co-ordinate of the beam,
+ *  this is used as the starting point and end points of the rope are calculated
+ *  as required
+ */
 	private void drawRope() {
 		/* The start and end co-ordinates of the line representing the rope, 
 		 * it is a vertical line */
