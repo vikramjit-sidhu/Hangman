@@ -102,6 +102,13 @@ public class HangmanCanvas extends GCanvas {
 		add(scaffold);
 	}
 	
+/**	Add the beam supporting the rope and the man on the screen
+ * 
+ * 	The GLine representing the beam begins from the same co-ordinates as the
+ * 	top of the scaffold.
+ * 	Since it is a horizontal line, for its endpoint only the x co-ordinate changes
+ *  with the length of the beam added to it. 	
+ */
 	private void drawBeam() {
 		double beamEndX = scaffoldTopX + BEAM_LENGTH;
 		GLine beam = new GLine(scaffoldTopX, scaffoldTopY, beamEndX, scaffoldTopY);
