@@ -38,7 +38,7 @@ public class HangmanCanvas extends GCanvas {
 		setWindowDimensions();
 		/* The scaffold is the only element whose co-ordinates are calculated, 
 		 * the co-ordinates of the remaining elements are calculated relative to it*/
-		calculateScaffoldLabelsOffset();
+		setScaffoldOffset();
 		
 		/* Draw the initial parts of the game */
 		drawScaffold();
