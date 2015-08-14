@@ -155,15 +155,18 @@ public class HangmanCanvas extends GCanvas {
 	private void addWordGuessedLabel() {
 		setWordGuessedPoint();
 		wordGuessedSoFarLabel = new GLabel("");
-		add(wordGuessedSoFarLabel);
+		changeWordGuessedLabelString("");
 	}
 	
-/** Set the point for the word guessed so far label */
+/** Set the point for the word guessed so far label 
+ *  This method assumes that the offset for the scaffold has already been set*/
 	private void setWordGuessedPoint() {
 		double ypos = scaffoldTopY + SCAFFOLD_HEIGHT + Y_OFFSET_BETWEEN_SCAFFOLD_LABEL; 
 		incorrectGuessesStartPoint.setLocation(LABEL_X_OFFSET, ypos);
 	}
 	
+/** 
+ * */	
 	private void addIncorrectGuessLabel() {
 		
 		incorrectGuessesLabel = new GLabel("", 10, 10);
