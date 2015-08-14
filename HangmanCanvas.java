@@ -82,10 +82,7 @@ public class HangmanCanvas extends GCanvas {
 		 * the beam length, this is the x position of the scaffold  */
 		scaffoldTopX = (windowWidth / 2) - BEAM_LENGTH;
 		
-		System.out.println(wordGuessedSoFarLabelHeight);
-		System.out.println(incorrectGuessesLabelHeight);
-		int spaceRemY = windowWidth - SCAFFOLD_HEIGHT - 
-						(int) wordGuessedSoFarLabelHeight - (int) incorrectGuessesLabelHeight;
+		int spaceRemY = windowWidth - SCAFFOLD_HEIGHT; 
 		
 	}
 	
