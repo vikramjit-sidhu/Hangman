@@ -158,6 +158,10 @@ public class HangmanCanvas extends GCanvas {
 		add(wordGuessedSoFarLabel);
 	}
 	
+	private void setWordGuessedPoint(); {
+		
+	}
+	
 	private void addIncorrectGuessLabel() {
 		
 		incorrectGuessesLabel = new GLabel("", 10, 10);
