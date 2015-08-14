@@ -93,6 +93,7 @@ public class HangmanCanvas extends GCanvas {
 		
 	}
 	
+	
 /** Draw the scaffold, i.e. the 'pole' which supports the hanging
  * 	It is a simple GLine object added to screen
  * 
