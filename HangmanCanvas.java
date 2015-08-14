@@ -92,7 +92,8 @@ public class HangmanCanvas extends GCanvas {
 		scaffoldTopX = (windowWidth / 2) - BEAM_LENGTH;
 		
 		int spaceRemY = windowHeight - 
-								(SCAFFOLD_HEIGHT + Y_OFFSET_BETWEEN_LABELS + Y_OFFSET_BETWEEN_SCAFFOLD_LABEL); 
+								(SCAFFOLD_HEIGHT + Y_OFFSET_BETWEEN_LABELS + Y_OFFSET_BETWEEN_SCAFFOLD_LABEL);
+		scaffoldTopY = spaceRemY / 2;
 		
 	}
 	
