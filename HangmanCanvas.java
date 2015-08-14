@@ -145,7 +145,12 @@ public class HangmanCanvas extends GCanvas {
 		add(rope);
 	}
 	
-	
+
+/** Add the label which displays the status of the word guessed so far
+ * 	Also sets the point which contains the baseline of this label
+ * 	this is done so that it is easier to draw the label later on without
+ *  re-calculating the point each time	
+ */
 	private void addWordGuessedLabel() {
 		wordGuessedSoFarLabel = new GLabel("", 50, 50);
 		add(wordGuessedSoFarLabel);
