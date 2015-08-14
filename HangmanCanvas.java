@@ -147,7 +147,8 @@ public class HangmanCanvas extends GCanvas {
 	
 
 /** Add the label which displays the status of the word guessed so far
- * 	Also sets the point which contains the baseline of this label
+ * 	Also sets the instance variable point which contains the co-ordinates of
+ * 	the baseline of this label
  * 	this is done so that it is easier to draw the label later on without
  *  re-calculating the point each time	
  */
