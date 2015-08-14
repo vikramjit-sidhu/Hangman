@@ -147,6 +147,7 @@ public class HangmanCanvas extends GCanvas {
 	
 	
 	private void addIncorrectGuessLabel() {
+		
 		incorrectGuessesLabel = new GLabel("", 10, 10);
 		add(incorrectGuessesLabel);
 	}
@@ -164,6 +165,8 @@ public class HangmanCanvas extends GCanvas {
 /** The label displaying the word which the user has guessed so far */
 	private GLabel wordGuessedSoFarLabel;
 	
+	private Point 
+	
 /**	The label recording all the incorrect guesses made by the user */
 	private GLabel incorrectGuessesLabel;
 	
@@ -176,6 +179,4 @@ public class HangmanCanvas extends GCanvas {
 	private double scaffoldTopX;
 	private double scaffoldTopY;
 	
-/** The initial Y offset of the labels, i.e. the first label starts from this y location */	
-	private int labelStartOffsetY;
 }
