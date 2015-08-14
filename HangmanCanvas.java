@@ -151,6 +151,7 @@ public class HangmanCanvas extends GCanvas {
 		add(wordGuessedSoFarLabel);
 	}
 	
+	
 /** The number of incorrect guesses made so far, on the basis of this number, the various
  *  body parts are drawn on the window */
 	private int incorrectGuessesMade = 0;
