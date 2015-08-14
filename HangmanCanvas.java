@@ -56,7 +56,7 @@ public class HangmanCanvas extends GCanvas {
 	public void displayWord(String word) {
 		remove(wordGuessedSoFarLabel);
 		wordGuessedSoFarLabel.setLabel(word);
-		add(wordGuessedSoFarLabel);
+		add(wordGuessedSoFarLabel);	//TODO add co-ordinates
 	}
 
 /**
