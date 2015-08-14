@@ -70,10 +70,8 @@ public class HangmanCanvas extends GCanvas {
  */
 	public void noteIncorrectGuess(char letter) {
 		String oldCharsGuessed = incorrectGuessesLabel.getLabel();
-		remove(incorrectGuessesLabel);
 		String currCharsGuessed = oldCharsGuessed + letter;
 		incorrectGuessesLabel.setLabel(currCharsGuessed);
-		add(incorrectGuessesLabel);
 	}
 
 	
