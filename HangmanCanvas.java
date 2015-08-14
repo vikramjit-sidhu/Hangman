@@ -193,7 +193,7 @@ public class HangmanCanvas extends GCanvas {
 /** The label displaying the word which the user has guessed so far */
 	private GLabel wordGuessedSoFarLabel;
 /** The baseline co-ordinates of the word guessed so far label */	
-	private GPoint wordGuessedSoFarStartPoint;
+	private GPoint wordGuessedSoFarStartPoint = new GPoint();
 	
 /**	The label recording all the incorrect guesses made by the user */
 	private GLabel incorrectGuessesLabel;
