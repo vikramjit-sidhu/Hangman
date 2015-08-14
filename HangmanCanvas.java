@@ -49,6 +49,9 @@ public class HangmanCanvas extends GCanvas {
  * Updates the word on the screen to correspond to the current
  * state of the game.  The argument string shows what letters have
  * been guessed so far; unguessed letters are indicated by hyphens.
+ * 
+ * Removes the label displaying the currently guessed word and adds it again
+ * to the same co-ordinates with the updated word
  */
 	public void displayWord(String word) {
 		remove(wordGuessedSoFarLabel);
