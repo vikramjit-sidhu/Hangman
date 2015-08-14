@@ -119,7 +119,8 @@ public class HangmanCanvas extends GCanvas {
 		double ropeX = scaffoldTopX + BEAM_LENGTH;
 		double ropeStartY = scaffoldTopY;
 		double ropeEndY = ropeStartY + ROPE_LENGTH;
-		GLine rope = new GLine(ropeStartX)
+		GLine rope = new GLine(ropeX, ropeStartY, ropeX, ropeEndY);
+		add(rope);
 	}
 	
 	
