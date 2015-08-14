@@ -150,7 +150,7 @@ public class HangmanCanvas extends GCanvas {
  * 	Also sets the instance variable point which contains the co-ordinates of
  * 	the baseline of this label.
  * 	This is done so that it is easier to draw the label later on without
- *  re-calculating the point each time	
+ *  re-calculating the point each time.	
  */
 	private void addWordGuessedLabel() {
 		wordGuessedSoFarLabel = new GLabel("", 50, 50);
