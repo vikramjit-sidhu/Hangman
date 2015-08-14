@@ -110,7 +110,7 @@ public class HangmanCanvas extends GCanvas {
  *  with the length of the beam added to it. 	
  */
 	private void drawBeam() {
-		double beamStartX = scaffoldTopX';
+		double beamStartX = scaffoldTopX;
 		double beamEndX = scaffoldTopX + BEAM_LENGTH;
 		GLine beam = new GLine(scaffoldTopX, scaffoldTopY, beamEndX, scaffoldTopY);
 		add(beam);
