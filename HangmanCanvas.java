@@ -59,9 +59,7 @@ public class HangmanCanvas extends GCanvas {
  * to the same co-ordinates with the updated word
  */
 	public void displayWord(String word) {
-		remove(wordGuessedSoFarLabel);
 		wordGuessedSoFarLabel.setLabel(word);
-		add(wordGuessedSoFarLabel);	//TODO add co-ordinates
 	}
 
 /**
