@@ -182,6 +182,7 @@ public class HangmanCanvas extends GCanvas {
  */
 	private void setIncorrectGuessPoint() {
 		
+		incorrectGuessesStartPoint.setLocation(LABEL_X_OFFSET, );
 	}
 	
 	
