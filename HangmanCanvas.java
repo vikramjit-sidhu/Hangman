@@ -120,6 +120,8 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void drawRope() {
+		/* The start and end co-ordinates of the line representing the rope, 
+		 * it is a vertical line */
 		double ropeX = scaffoldTopX + BEAM_LENGTH;
 		double ropeStartY = scaffoldTopY;
 		double ropeEndY = ropeStartY + ROPE_LENGTH;
