@@ -130,4 +130,7 @@ public class HangmanCanvas extends GCanvas {
  *  every co-ordinate is calculated relative to them */
 	private double scaffoldTopX;
 	private double scaffoldTopY;
+	
+/** The initial Y offset of the labels, i.e. the first label starts from this y location */	
+	private int labelStartOffsetY;
 }
