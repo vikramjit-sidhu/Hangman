@@ -103,7 +103,7 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 	private void drawBeam() {
-		
+		double beamEndX = scaffoldTopX + BEAM_LENGTH;
 	}
 	
 	private void drawRope() {
