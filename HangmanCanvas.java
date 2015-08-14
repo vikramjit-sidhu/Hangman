@@ -153,6 +153,7 @@ public class HangmanCanvas extends GCanvas {
  *  re-calculating the point each time.	
  */
 	private void addWordGuessedLabel() {
+		setWordGuessedPoint();
 		wordGuessedSoFarLabel = new GLabel("");
 		add(wordGuessedSoFarLabel);
 	}
