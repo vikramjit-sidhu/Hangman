@@ -85,6 +85,7 @@ public class HangmanCanvas extends GCanvas {
 		double wordGuessedSoFarLabelHeight = wordGuessedSoFarLabel.getHeight();
 		double incorrectGuessesLabelHeight = incorrectGuessesLabel.getHeight();
 		System.out.println(wordGuessedSoFarLabelHeight);
+		System.out.println(incorrectGuessesLabelHeight);
 		int spaceRemY = windowWidth - SCAFFOLD_HEIGHT - 
 						(int) wordGuessedSoFarLabelHeight - (int) incorrectGuessesLabelHeight;
 		
