@@ -175,6 +175,15 @@ public class HangmanCanvas extends GCanvas {
 		add(incorrectGuessesLabel);
 	}
 	
+/** Set the point which describes the location of the label 
+ * 	holding the incorrect guesses made.
+ *  This method assumes that the point for the word guessed so far, i.e.
+ *  wordGuessedSoFarStartPoint is set.
+ */
+	private void setIncorrectGuessPoint() {
+		
+	}
+	
 	
 /** The number of incorrect guesses made so far, on the basis of this number, the various
  *  body parts are drawn on the window */
