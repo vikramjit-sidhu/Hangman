@@ -28,7 +28,7 @@ public class HangmanCanvas extends GCanvas {
 	private static final int LABEL_X_OFFSET = 50;
 	
 /** The y offset between the labels*/	
-	private static final int OFFSET_BETWEEN_LABELS_Y = 25;
+	private static final int Y_OFFSET_BETWEEN_LABELS = 25;
 	
 /** Resets the display so that only the scaffold appears */
 	public void reset() {
