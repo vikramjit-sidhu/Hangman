@@ -76,6 +76,7 @@ public class HangmanCanvas extends GCanvas {
 		add(incorrectGuessesLabel);
 	}
 
+	
 /** Sets the instance variables windowWidth and windowWidth,
  *  to the height and width of the application window */	
 	private void setWindowDimensions() {
