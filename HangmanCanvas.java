@@ -170,7 +170,8 @@ public class HangmanCanvas extends GCanvas {
  * */	
 	private void addIncorrectGuessLabel() {
 		
-		incorrectGuessesLabel = new GLabel("", 10, 10);
+		incorrectGuessesLabel = new GLabel("");
+		incorrectGuessesLabel.setLocation(incorrectGuessesStartPoint);
 		add(incorrectGuessesLabel);
 	}
 	
