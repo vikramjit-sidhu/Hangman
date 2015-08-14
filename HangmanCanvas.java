@@ -169,7 +169,7 @@ public class HangmanCanvas extends GCanvas {
 	
 /**	The label recording all the incorrect guesses made by the user */
 	private GLabel incorrectGuessesLabel;
-	
+/** The baseline co-ordinates of the incorrect guesses label*/	
 	private GPoint incorrectGuessesStartPoint;
 	
 /** The width and height of the application window, where the elements are drawn */	
