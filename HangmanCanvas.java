@@ -160,7 +160,7 @@ public class HangmanCanvas extends GCanvas {
 	
 	private void setWordGuessedPoint(); {
 		double ypos = scaffoldTopY + SCAFFOLD_HEIGHT + Y_OFFSET_BETWEEN_SCAFFOLD_LABEL; 
-		incorrectGuessesStartPoint.setLocation(LABEL_X_OFFSET, );
+		incorrectGuessesStartPoint.setLocation(LABEL_X_OFFSET, ypos);
 	}
 	
 	private void addIncorrectGuessLabel() {
