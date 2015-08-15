@@ -40,7 +40,8 @@ public class HangmanCanvas extends GCanvas {
 		 * the co-ordinates of the remaining elements are calculated relative to it*/
 		setScaffoldOffset();
 		
-		System.out.println("width: " + scaffoldTopX);
+		System.out.println("width: " + windowWidth);
+		System.out.println("height" + windowHeight);
 		
 		System.out.println("scaffold x: " + scaffoldTopX);
 		System.out.println("scaffold y: " + scaffoldTopY);
