@@ -202,7 +202,7 @@ public class HangmanCanvas extends GCanvas {
 	
 /** The x,y co-ordinates of the top of the scaffold, 
  *  every co-ordinate is calculated relative to them */
-	private double scaffoldTopX;
-	private double scaffoldTopY;
+	private double scaffoldTopX = 0;
+	private double scaffoldTopY = 0;
 	
 }
