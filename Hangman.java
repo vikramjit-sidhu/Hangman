@@ -35,6 +35,7 @@ public class Hangman extends ConsoleProgram {
     public void run() {
     	addCanvas();
     	System.out.println("width in text game: " + canvas.getWidth());
+    	System.out.println("height in text game: " + canvas.getWidth());
     	playHangmanGame();
     }
     
