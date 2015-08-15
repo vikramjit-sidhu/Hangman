@@ -40,7 +40,7 @@ public class Hangman extends ConsoleProgram {
     }
     
     private void addCanvas() {
-    	canvas = new GCanvas();
+    	canvas = (HangmanCanvas) new GCanvas();
     	canvas.reset();
     	add(canvas);
     }
