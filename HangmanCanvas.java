@@ -41,7 +41,7 @@ public class HangmanCanvas extends GCanvas {
 		setScaffoldOffset();
 		
 		System.out.println("width: " + getWidth());
-		System.out.println("height" + windowHeight);
+		System.out.println("height: " + windowHeight);
 		
 		System.out.println("scaffold x: " + scaffoldTopX);
 		System.out.println("scaffold y: " + scaffoldTopY);
