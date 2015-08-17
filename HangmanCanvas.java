@@ -86,6 +86,10 @@ public class HangmanCanvas extends GCanvas {
 		String oldCharsGuessed = incorrectGuessesLabel.getLabel();
 		String currCharsGuessed = oldCharsGuessed + letter;
 		incorrectGuessesLabel.setLabel(currCharsGuessed);
+		
+		switch incorrectGuessesMade:
+			case 0:
+				
 	}
 
 	
