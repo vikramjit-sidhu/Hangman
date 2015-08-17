@@ -37,7 +37,15 @@ public class Hangman extends ConsoleProgram {
     	playHangmanGame();
     }
     
+/** Adding the graphical canvas along with the text one.
+ *  The dimensions of the canvas are the same as the text console.
+ *  Sending the dimensions to the GCanvas constructor for its internal calculations
+ *  (This was done primarily as the GCanvas (HangmanCanvas) could not get its height 
+ *  and width dimensions (was set to 0)     
+ */
     private void addCanvas() {
+    	int width = getWidth();
+    	int height = getHeight();
     	canvas = new HangmanCanvas();
     	canvas.reset();
     	add(canvas);
