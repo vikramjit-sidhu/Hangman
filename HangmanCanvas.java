@@ -33,7 +33,7 @@ public class HangmanCanvas extends GCanvas {
 	private static final int Y_OFFSET_BETWEEN_SCAFFOLD_LABEL = 40;
 	
 	private HangmanCanvas() {
-		
+		setWindowDimensions();
 	}
 	
 /* 
