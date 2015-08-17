@@ -37,12 +37,12 @@ public class HangmanCanvas extends GCanvas {
  * 	
  * 	If the value is not passed, setting width and height using methods of the GCanvas
  */
-	private HangmanCanvas() {
+	public HangmanCanvas() {
 		windowWidth = getWidth();
 		windowHeight = getHeight();
 	}
 	
-	private HangmanCanvas(int width, int height) {
+	public HangmanCanvas(int width, int height) {
 		windowWidth = width;
 		windowHeight = height;
 	}
