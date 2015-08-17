@@ -61,7 +61,7 @@ public class HangmanCanvas extends GCanvas {
 		System.out.println("scaffold y: " + scaffoldTopY);
 		
 		System.out.println("first label x: " + wordGuessedSoFarStartPoint.getX());
-		System.out.println(" label y: " + wordGuessedSoFarStartPoint.getY());
+		System.out.println("first label y: " + wordGuessedSoFarStartPoint.getY());
 		
 		/* Draw the initial parts of the game */
 		drawScaffold();
