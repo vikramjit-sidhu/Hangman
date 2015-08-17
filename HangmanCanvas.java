@@ -54,15 +54,6 @@ public class HangmanCanvas extends GCanvas {
 		 * the co-ordinates of the remaining elements are calculated relative to it */
 		setScaffoldOffset();
 		
-		System.out.println("width: " + windowWidth);
-		System.out.println("height: " + windowHeight);
-		
-		System.out.println("scaffold x: " + scaffoldTopX);
-		System.out.println("scaffold y: " + scaffoldTopY);
-		
-		System.out.println("first label x: " + wordGuessedSoFarStartPoint.getX());
-		System.out.println("first label y: " + wordGuessedSoFarStartPoint.getY());
-		
 		/* Draw the initial parts of the game */
 		drawScaffold();
 		drawBeam();
