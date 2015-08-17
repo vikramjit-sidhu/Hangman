@@ -32,11 +32,19 @@ public class HangmanCanvas extends GCanvas {
 /** The y offset between the scaffold and the first label */	
 	private static final int Y_OFFSET_BETWEEN_SCAFFOLD_LABEL = 40;
 	
+	private HangmanCanvas() {
+		
+	}
+	
+/* 
+ */
+	private HangmanCanvas(int width, int height) {
+		
+	}
 	
 /** Resets the display so that only the scaffold appears */
 	public void reset() {
 		removeAll();
-		setWindowDimensions();
 		/* The scaffold is the only element whose co-ordinates are calculated, 
 		 * the co-ordinates of the remaining elements are calculated relative to it*/
 		setScaffoldOffset();
