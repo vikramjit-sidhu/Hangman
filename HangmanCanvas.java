@@ -97,12 +97,12 @@ public class HangmanCanvas extends GCanvas {
 	}
 
 	
-/** Sets the instance variables windowWidth and windowWidth,
- *  to the height and width of the application window */	
-	private void setWindowDimensions() {
-		windowWidth = getWidth();
-		windowHeight = getHeight();
-	}
+///** Sets the instance variables windowWidth and windowWidth,
+// *  to the height and width of the application window */	
+//	private void setWindowDimensions() {
+//		windowWidth = getWidth();
+//		windowHeight = getHeight();
+//	}
 	
 	private void setScaffoldOffset() {
 		/* The head has to be at the centre of the window, hence taking into account 
