@@ -219,8 +219,8 @@ public class HangmanCanvas extends GCanvas {
 	private GPoint incorrectGuessesStartPoint = new GPoint();
 	
 /** The width and height of the application window, where the elements are drawn */	
-	private int windowWidth = 0;
-	private int windowHeight = 0;
+	private int windowWidth;
+	private int windowHeight;
 	
 /** The x,y co-ordinates of the top of the scaffold, 
  *  every co-ordinate is calculated relative to them */
