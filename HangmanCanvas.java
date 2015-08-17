@@ -50,7 +50,7 @@ public class HangmanCanvas extends GCanvas {
 	public void reset() {
 		removeAll();
 		/* The scaffold is the only element whose co-ordinates are calculated, 
-		 * the co-ordinates of the remaining elements are calculated relative to it*/
+		 * the co-ordinates of the remaining elements are calculated relative to it */
 		setScaffoldOffset();
 		
 		System.out.println("width: " + getWidth());
