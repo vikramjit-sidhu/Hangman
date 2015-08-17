@@ -32,8 +32,10 @@ public class HangmanCanvas extends GCanvas {
 /** The y offset between the scaffold and the first label */	
 	private static final int Y_OFFSET_BETWEEN_SCAFFOLD_LABEL = 40;
 	
-/** Two constructors defined, if height and width of window is passed, 
+/** Two constructors defined, if height and width of window is passed, to the constructor,
+ * 	setting it to the values passed
  * 	
+ * 	If the value is not passed, setting width and height using methods of the GCanvas
  */
 	private HangmanCanvas() {
 		setWindowDimensions();
