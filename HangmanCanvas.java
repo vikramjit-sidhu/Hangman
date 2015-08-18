@@ -216,7 +216,7 @@ public class HangmanCanvas extends GCanvas {
 		double xpos, ypos;
 		xpos = scaffoldTopX + BEAM_LENGTH - HEAD_RADIUS;
 		ypos = scaffoldTopY + ROPE_LENGTH;
-		GPoint point = new GPoint(xpos, ypos);
+		return new GPoint(xpos, ypos);
 	}
 	
 
