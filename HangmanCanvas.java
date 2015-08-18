@@ -62,6 +62,8 @@ public class HangmanCanvas extends GCanvas {
 		/* Set up the labels which keep track of the incorrect guesses and word so far */
 		addWordGuessedLabel();
 		addIncorrectGuessLabel();
+		
+		incorrectGuessesMade = 0;
 	}
 
 /**
