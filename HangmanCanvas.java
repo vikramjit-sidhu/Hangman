@@ -199,7 +199,7 @@ public class HangmanCanvas extends GCanvas {
  */
 	private void drawHead() {
 		GPoint headCoOrdinates = getHeadPosition();
-		GOval head = new GOval(headCoOrdinates.getX(), headCoOrdinates.getY(), HEAD_RADIUS, HEAD_RADIUS);
+		GOval head = new GOval(headCoOrdinates.getX(), headCoOrdinates.getY(), HEAD_DIAMETER, HEAD_DIAMETER);
 		add(head);
 	}
 	
@@ -213,7 +213,7 @@ public class HangmanCanvas extends GCanvas {
  */
 	private GPoint getHeadPosition() {
 		double xpos, ypos;
-		xpos = scaffoldTopX + BEAM_LENGTH - (HEAD_RADIUS / 2);
+		xpos = scaffoldTopX + BEAM_LENGTH - (HEAD_DIAMETER / 2);
 		ypos = scaffoldTopY + ROPE_LENGTH;
 		return new GPoint(xpos, ypos);
 	}
