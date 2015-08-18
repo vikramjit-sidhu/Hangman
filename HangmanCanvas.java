@@ -212,7 +212,7 @@ public class HangmanCanvas extends GCanvas {
  * 	the radius of the head will have to be subtracted.
  * 	For the y co-ordinate, the rope length will have to be considered.
  */
-	private void getHeadPosition() {
+	private GPoint getHeadPosition() {
 		
 	}
 	
