@@ -235,6 +235,16 @@ public class HangmanCanvas extends GCanvas {
 		
 	}
 	
+/** Get the starting point for the line representing the body
+ * 	The x co-ordinate has to add the beam length to the scaffold x co-or
+ * 	The y co-ordinate is the scaffold y co-or along with the rope length and 
+ *  the head diameter
+ * @return The GPoint object representing the starting location for the line
+ */
+	private GPoint getBodyStartPoint() {
+		
+	}
+	
 
 /** Add the label which displays the status of the word guessed so far
  * 	Also sets the instance variable point which contains the co-ordinates of
