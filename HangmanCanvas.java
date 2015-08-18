@@ -14,7 +14,7 @@ public class HangmanCanvas extends GCanvas {
 	private static final int SCAFFOLD_HEIGHT = 360;	//earlier value was 360
 	private static final int BEAM_LENGTH = 144;
 	private static final int ROPE_LENGTH = 18;
-	private static final int HEAD_RADIUS = 36;
+	private static final int HEAD_DIAMETER = 36;
 	private static final int BODY_LENGTH = 144;
 	private static final int ARM_OFFSET_FROM_HEAD = 28;
 	private static final int UPPER_ARM_LENGTH = 72;
