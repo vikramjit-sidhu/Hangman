@@ -90,38 +90,38 @@ public class HangmanCanvas extends GCanvas {
 		String currCharsGuessed = oldCharsGuessed + letter;
 		incorrectGuessesLabel.setLabel(currCharsGuessed);
 		
-//		switch (incorrectGuessesMade) {
-//			case 0:
-//				drawHead();
-//				break;
-//			case 1:
-////				drawBody();
-//				break;
-//			case 2:
-////				drawLeftArm();
-//				break;
-//			case 3:
-////				drawRightArm();
-//				break;
-//			case 4:
-////				drawLeftLeg();
-//				break;
-//			case 5:
-////				drawRightLeg();
-//				break;
-//			case 6:
-////				drawLeftFoot();
-//				break;
-//			case 7:
-////				drawRightFoot();
-//				break;
-//			case 8:
-//				/* The user has lost the game */
-//				break;
-//			default:
-//				System.err.println("Incorrect guess made");
-//				break;
-//		}
+		switch (incorrectGuessesMade) {
+			case 0:
+				drawHead();
+				break;
+			case 1:
+//				drawBody();
+				break;
+			case 2:
+//				drawLeftArm();
+				break;
+			case 3:
+//				drawRightArm();
+				break;
+			case 4:
+//				drawLeftLeg();
+				break;
+			case 5:
+//				drawRightLeg();
+				break;
+			case 6:
+//				drawLeftFoot();
+				break;
+			case 7:
+//				drawRightFoot();
+				break;
+			case 8:
+				/* The user has lost the game */
+				break;
+			default:
+				System.err.println("Incorrect guess made");
+				break;
+		}
 		incorrectGuessesMade++;
 				
 	}
