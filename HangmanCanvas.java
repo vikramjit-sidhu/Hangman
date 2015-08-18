@@ -95,25 +95,25 @@ public class HangmanCanvas extends GCanvas {
 				drawHead();
 				break;
 			case 1:
-				drawBody();
+//				drawBody();
 				break;
 			case 2:
-				drawLeftArm();
+//				drawLeftArm();
 				break;
 			case 3:
-				drawRightArm();
+//				drawRightArm();
 				break;
 			case 4:
-				drawLeftLeg();
+//				drawLeftLeg();
 				break;
 			case 5:
-				drawRightLeg();
+//				drawRightLeg();
 				break;
 			case 6:
-				drawLeftFoot();
+//				drawLeftFoot();
 				break;
 			case 7:
-				drawRightFoot();
+//				drawRightFoot();
 				break;
 			case 8:
 				/* The user has lost the game */
