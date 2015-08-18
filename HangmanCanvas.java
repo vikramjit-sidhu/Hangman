@@ -63,6 +63,7 @@ public class HangmanCanvas extends GCanvas {
 		addWordGuessedLabel();
 		addIncorrectGuessLabel();
 		
+		/*Since the game is just starting, set the number of wrong guesses to 0 */
 		incorrectGuessesMade = 0;
 	}
 
