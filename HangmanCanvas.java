@@ -221,6 +221,13 @@ public class HangmanCanvas extends GCanvas {
 		return new GPoint(xpos, ypos);
 	}
 	
+/** Draw the line, which represents the body, it starts just when the head 
+ * 	ends, and goes on as a horizontal line.	
+ */
+	private void drawBody() {
+		
+	}
+	
 
 /** Add the label which displays the status of the word guessed so far
  * 	Also sets the instance variable point which contains the co-ordinates of
