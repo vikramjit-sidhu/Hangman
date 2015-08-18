@@ -204,6 +204,14 @@ public class HangmanCanvas extends GCanvas {
 		add(head);
 	}
 	
+/** Set the position for the head, using the position of the scaffold 
+ * 	as a reference. The co-ordinates returned is the top left position of the
+ * 	square holding the circle
+ * 
+ * 	For the x co-ordinates, the offset because of the beam will have to be added, 
+ * 	the radius of the head will have to be subtracted.
+ * 	For the y co-ordinate, the rope length will have to be considered
+ */
 	private void getHeadPosition() {
 		
 	}
