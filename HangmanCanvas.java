@@ -231,6 +231,7 @@ public class HangmanCanvas extends GCanvas {
 		double starty = startPointBody.getY();
 		double endy = starty + BODY_LENGTH; 
 		GLine body = new GLine(startx, starty, endx, endy);
+		add(body);
 		
 	}
 	
