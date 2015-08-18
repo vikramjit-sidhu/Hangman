@@ -199,7 +199,7 @@ public class HangmanCanvas extends GCanvas {
  */
 	private void drawHead() {
 		GPoint headCoOrdinates = getHeadPosition();
-		GOval head = new GOval(headCoOrdinates.getX(), headCoOrdinates.getY(), HEAD_DIAMETER, HEAD_DIAMETER);
+		GOval head = new GOval(headCoOrdinates.getX(), headCoOrdinates.getY(), 2*HEAD_RADIUS, 2*HEAD_RADIUS);
 		add(head);
 	}
 	
