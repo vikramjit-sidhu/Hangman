@@ -194,6 +194,12 @@ public class HangmanCanvas extends GCanvas {
 		add(rope);
 	}
 	
+/** Draw the head using the offsets defined for the scaffold
+ */
+	public void drawHead() {
+		
+	}
+	
 
 /** Add the label which displays the status of the word guessed so far
  * 	Also sets the instance variable point which contains the co-ordinates of
