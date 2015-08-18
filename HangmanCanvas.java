@@ -242,7 +242,9 @@ public class HangmanCanvas extends GCanvas {
  * @return The GPoint object representing the starting location for the line
  */
 	private GPoint getBodyStartPoint() {
-		
+		double xpos, ypos;
+		xpos = scaffoldTopX + BEAM_LENGTH;
+		ypost = scaffoldTopY + ROPE_LENGTH + (2 * HEAD_RADIUS); 
 	}
 	
 
