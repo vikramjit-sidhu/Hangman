@@ -197,7 +197,7 @@ public class HangmanCanvas extends GCanvas {
 /** Draw the head using the offsets defined for the scaffold
  */
 	public void drawHead() {
-		
+		GPoint headCoOrdinates = getHeadPosition();
 	}
 	
 
