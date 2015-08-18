@@ -213,7 +213,7 @@ public class HangmanCanvas extends GCanvas {
  * 	For the y co-ordinate, the rope length will have to be considered.
  */
 	private GPoint getHeadPosition() {
-		
+		double xpos, ypos;
 	}
 	
 
