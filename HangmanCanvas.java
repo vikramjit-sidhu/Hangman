@@ -225,6 +225,9 @@ public class HangmanCanvas extends GCanvas {
  * 	ends, and goes on as a horizontal line.	
  */
 	private void drawBody() {
+		GPoint startPointBody = getBodyStartPoint();
+		double startx = startPointBody.getX();
+		GLine body = new GLine();
 		
 	}
 	
