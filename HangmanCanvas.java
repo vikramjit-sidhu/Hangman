@@ -196,6 +196,9 @@ public class HangmanCanvas extends GCanvas {
 /** Draw the head using the offsets defined for the scaffold
  * 	The co-ordinates obtained for the head are that of the top left corner 
  * 	of the square which contains the oval.
+ * 
+ * 	The constructor of the GOval contains is passed the x, y co-ordinates and the
+ * 	length of the sides making up the square
  */
 	private void drawHead() {
 		GPoint headCoOrdinates = getHeadPosition();
