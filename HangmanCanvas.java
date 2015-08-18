@@ -214,6 +214,9 @@ public class HangmanCanvas extends GCanvas {
  */
 	private GPoint getHeadPosition() {
 		double xpos, ypos;
+		GPoint point = new GPoint();
+		
+		
 	}
 	
 
