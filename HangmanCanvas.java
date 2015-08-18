@@ -210,7 +210,7 @@ public class HangmanCanvas extends GCanvas {
  * 
  * 	For the x co-ordinates, the offset because of the beam will have to be added, 
  * 	the radius of the head will have to be subtracted.
- * 	For the y co-ordinate, the rope length will have to be considered
+ * 	For the y co-ordinate, the rope length will have to be considered.
  */
 	private void getHeadPosition() {
 		
