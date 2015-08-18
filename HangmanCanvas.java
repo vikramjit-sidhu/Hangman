@@ -121,7 +121,6 @@ public class HangmanCanvas extends GCanvas {
 			default:
 				System.err.println("Incorrect guess made");
 				break;
-				
 		}
 		incorrectGuessesMade++;
 				
