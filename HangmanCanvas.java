@@ -98,7 +98,29 @@ public class HangmanCanvas extends GCanvas {
 				drawBody();
 				break;
 			case 2:
-				draw
+				drawLeftArm();
+				break;
+			case 3:
+				drawRightArm();
+				break;
+			case 4:
+				drawLeftLeg();
+				break;
+			case 5:
+				drawRightLeg();
+				break;
+			case 6:
+				drawLeftFoot();
+				break;
+			case 7:
+				drawRightFoot();
+				break;
+			case 8:
+				/* The user has lost the game */
+				break;
+			default:
+				System.err.println("Incorrect guess made");
+				
 		}
 		incorrectGuessesMade++;
 				
