@@ -198,10 +198,14 @@ public class HangmanCanvas extends GCanvas {
  * 	The co-ordinates obtained for the head are that of the top left corner 
  * 	of the square which contains the oval.
  */
-	public void drawHead() {
+	private void drawHead() {
 		GPoint headCoOrdinates = getHeadPosition();
 		GOval head = new GOval(headCoOrdinates.getX(), headCoOrdinates.getY(), HEAD_RADIUS, HEAD_RADIUS);
 		add(head);
+	}
+	
+	private void getHeadPosition() {
+		
 	}
 	
 
