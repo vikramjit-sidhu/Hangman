@@ -20,7 +20,7 @@ public class HangmanLexicon {
 		BufferedReader file;
 		/* Opening the file to read  */
 		try {
-			BufferedReader file = new BufferedReader(new FileReader("HangmanLexicon.txt"));
+			file = new BufferedReader(new FileReader("HangmanLexicon.txt"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
