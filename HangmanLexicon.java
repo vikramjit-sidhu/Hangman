@@ -36,4 +36,8 @@ public class HangmanLexicon {
 			default: throw new ErrorException("getWord: Illegal index");
 		}
 	};
+	
+	
+/** The Array List containing the word list */
+	private ArrayList<String> wordList;
 }
