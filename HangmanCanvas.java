@@ -239,6 +239,9 @@ public class HangmanCanvas extends GCanvas {
  * 	The x co-ordinate has to add the beam length to the scaffold x co-or
  * 	The y co-ordinate is the scaffold y co-or along with the rope length and 
  *  the head diameter
+ *  
+ *  This method is used to calculate the co-ordinates for all the body parts below it,
+ *  i.e. the arm, leg and foot
  * @return The GPoint object representing the starting location for the line
  */
 	private GPoint getBodyStartPoint() {
@@ -280,6 +283,15 @@ public class HangmanCanvas extends GCanvas {
 		add(new GLine(xpos, ypos, xpos + UPPER_ARM_LENGTH, ypos));
 		/* drawing the lower arm (vertical line) */
 		add(new GLine(xpos + UPPER_ARM_LENGTH, ypos, xpos + UPPER_ARM_LENGTH, ypos + LOWER_ARM_LENGTH));
+	}
+	
+/**	Draw the left leg of the body.
+ * 	Getting the starting 
+ * 
+ * 	It is a horizontal line, followed by a vertical line where the horizontal line ends	
+ */
+	private void drawLeftLeg() {
+		
 	}
 	
 
