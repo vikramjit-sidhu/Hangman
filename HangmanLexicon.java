@@ -17,11 +17,15 @@ public class HangmanLexicon {
  */
 	public HangmanLexicon() {
 		wordList = new ArrayList<String>();
+		/* Opening the file to read  */
 		try {
 			BufferedReader file = new BufferedReader(new FileReader("HangmanLexicon.txt"));
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+		/* Reading file contents into array list*/
+		
+		
 		
 	}
 
