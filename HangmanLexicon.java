@@ -6,6 +6,14 @@
 import acm.util.*;
 
 public class HangmanLexicon {
+	
+/** Reading the words from HangmanLexicon.txt into an array list 
+ * 	using a buffered reader	
+ */
+	public HangmanLexicon() {
+		
+		
+	}
 
 /** Returns the number of words in the lexicon. */
 	public int getWordCount() {
