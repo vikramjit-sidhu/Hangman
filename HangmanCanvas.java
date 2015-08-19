@@ -330,6 +330,22 @@ public class HangmanCanvas extends GCanvas {
 		/* Adding the leg, it is a single line */
 		add(new GLine(xpos, ypos, xpos - FOOT_LENGTH, ypos));
 	}
+
+/** Draw the left leg of the man.
+ * 	
+ * 	Calculating co-ordinates of the leg, relative to the starting position of the body (getBodyStartPoint)
+ * 	The x co-ordinate is offset by the hip length
+ * 	The y co-ordinate is offset by the body length and the leg length.
+ * 
+ * 	It is a single horizontal line	
+ */
+	private void drawLeftFoot() {
+		GPoint bodyStartPt = getBodyStartPoint();
+		double xpos = bodyStartPt.getX() - HIP_WIDTH;
+		double ypos = bodyStartPt.getY() + BODY_LENGTH + LEG_LENGTH;
+		/* Adding the leg, it is a single line */
+		add(new GLine(xpos, ypos, xpos - FOOT_LENGTH, ypos));
+	}
 	
 
 /** Add the label which displays the status of the word guessed so far
