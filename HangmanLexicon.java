@@ -56,6 +56,8 @@ public class HangmanLexicon {
 
 /** Returns the word at the specified index. */
 	public String getWord(int index) {
+		return wordList.get(index);
+		
 		switch (index) {
 			case 0: return "BUOY";
 			case 1: return "COMPUTER";
