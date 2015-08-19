@@ -25,6 +25,7 @@ public class HangmanLexicon {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+
 		/* Reading file contents into array list*/
 		try {
 			while (true) {
