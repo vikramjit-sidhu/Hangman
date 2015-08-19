@@ -263,7 +263,7 @@ public class HangmanCanvas extends GCanvas {
 		drawLowerArm(xpos - LOWER_ARM_LENGTH, ypos, xpos - LOWER_ARM_LENGTH, ypos);
 	}
 	
-/** Drawing the upper arm, for now it is a simple line, can improve in future.
+/** Drawing the arm, for now it is a simple line, can improve in future.
  * @param startX the starting x postition of the line
  * @param startY the starting y position for the line
  * @param endX the ending x position for the line
