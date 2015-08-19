@@ -39,7 +39,12 @@ public class HangmanLexicon {
 		} catch (IOException e) {
 			
 		} finally {
-			file.close();
+			try {
+				file.close();
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
 		}
 	}
 
