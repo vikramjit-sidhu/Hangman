@@ -306,7 +306,7 @@ public class HangmanCanvas extends GCanvas {
  * 
  * 	It is a horizontal line, followed by a vertical line where the horizontal line ends	
  */
-	private void drawLeftLeg() {
+	private void drawRightLeg() {
 		GPoint bodyStartPt = getBodyStartPoint();
 		double xpos = bodyStartPt.getX();
 		double ypos = bodyStartPt.getY() + BODY_LENGTH;
