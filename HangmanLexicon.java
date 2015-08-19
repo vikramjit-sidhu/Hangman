@@ -37,14 +37,13 @@ public class HangmanLexicon {
 				wordList.add(word);
 			}
 		} catch (IOException e) {
-			
+			e.printStackTrace();
 		} finally {
 			try {
 				file.close();
 			} catch (IOException e) {
 				e.printStackTrace();
 			}
-			
 		}
 	}
 
