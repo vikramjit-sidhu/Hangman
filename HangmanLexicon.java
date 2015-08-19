@@ -27,7 +27,7 @@ public class HangmanLexicon {
 		/* Reading file contents into array list*/
 		
 		
-		file
+		file.close();
 	}
 
 /** Returns the number of words in the lexicon. */
