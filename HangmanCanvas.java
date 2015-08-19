@@ -271,6 +271,7 @@ public class HangmanCanvas extends GCanvas {
  */
 	private void drawUpperArm(double startX, double startY, double endX, double endY) {
 		GLine upArm = new GLine(startX, startY, endX, endY);
+		add(upArm);
 	}
 	
 
