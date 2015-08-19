@@ -3,6 +3,7 @@
  * -------------------------
  */
 
+import java.io.BufferedReader;
 import java.util.ArrayList;
 
 import acm.util.*;
@@ -14,6 +15,7 @@ public class HangmanLexicon {
  */
 	public HangmanLexicon() {
 		wordList = new ArrayList<String>();
+		BufferedReader file = new BufferedReader(new FileReader("HangmanLexicon.txt"));
 		
 	}
 
