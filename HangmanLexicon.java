@@ -3,6 +3,8 @@
  * -------------------------
  */
 
+import java.util.ArrayList;
+
 import acm.util.*;
 
 public class HangmanLexicon {
@@ -11,7 +13,7 @@ public class HangmanLexicon {
  * 	using a buffered reader	
  */
 	public HangmanLexicon() {
-		
+		wordList = new ArrayList<String>();
 		
 	}
 
