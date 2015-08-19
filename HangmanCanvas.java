@@ -101,7 +101,7 @@ public class HangmanCanvas extends GCanvas {
 				drawLeftArm();
 				break;
 			case 3:
-//				drawRightArm();
+				drawRightArm();
 				break;
 			case 4:
 //				drawLeftLeg();
