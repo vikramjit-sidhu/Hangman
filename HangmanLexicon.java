@@ -40,6 +40,7 @@ public class HangmanLexicon {
 			e.printStackTrace();
 		} 
 		finally {
+			/* Closing the file */
 			try {
 				file.close();
 			} catch (IOException e) {
