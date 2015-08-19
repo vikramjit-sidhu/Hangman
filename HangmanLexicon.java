@@ -33,6 +33,7 @@ public class HangmanLexicon {
 				if (word == null) {
 					break;
 				}
+				wordList.add(word);
 			}
 			
 		}
