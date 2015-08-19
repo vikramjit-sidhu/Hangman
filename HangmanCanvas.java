@@ -319,7 +319,9 @@ public class HangmanCanvas extends GCanvas {
  * 	
  * 	Calculating co-ordinates of the leg, relative to the starting position of the body (getBodyStartPoint)
  * 	The x co-ordinate is offset by the hip length
- * 	The y co-ordinate is offset by the body length and the leg length.	
+ * 	The y co-ordinate is offset by the body length and the leg length.
+ * 
+ * 	It is a single horizontal line	
  */
 	private void drawLeftLeg() {
 		GPoint bodyStartPt = getBodyStartPoint();
