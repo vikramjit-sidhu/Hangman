@@ -286,7 +286,8 @@ public class HangmanCanvas extends GCanvas {
 	}
 	
 /**	Draw the left leg of the body.
- * 	Getting the starting 
+ * 	Calculating the starting point for the leg from the start
+ * 	co-ordinate of the body
  * 
  * 	It is a horizontal line, followed by a vertical line where the horizontal line ends	
  */
