@@ -315,6 +315,10 @@ public class HangmanCanvas extends GCanvas {
 		add(new GLine(xpos + HIP_WIDTH, ypos, xpos + HIP_WIDTH, ypos + LEG_LENGTH));
 	}	
 	
+	private void drawLeftLeg() {
+		
+	}
+	
 
 /** Add the label which displays the status of the word guessed so far
  * 	Also sets the instance variable point which contains the co-ordinates of
