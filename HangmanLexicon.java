@@ -29,7 +29,7 @@ public class HangmanLexicon {
 		try {
 			while (true) {
 				String word = file.readLine();
-				/* The readLine method returns null if EOF is reached */
+				/* The readLine method returns null if end of stream is reached */
 				if (word == null) {
 					break
 				}
