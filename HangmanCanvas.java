@@ -270,7 +270,7 @@ public class HangmanCanvas extends GCanvas {
  * @param endY the ending y position for the line
  */
 	private void drawUpperArm(double startX, double startY, double endX, double endY) {
-		GLine upArm = new GLine()
+		GLine upArm = new GLine(startX, startY, endX, endY);
 	}
 	
 
