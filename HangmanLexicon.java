@@ -17,6 +17,7 @@ public class HangmanLexicon {
  */
 	public HangmanLexicon() {
 		wordList = new ArrayList<String>();
+		BufferedReader file;
 		/* Opening the file to read  */
 		try {
 			BufferedReader file = new BufferedReader(new FileReader("HangmanLexicon.txt"));
@@ -26,7 +27,7 @@ public class HangmanLexicon {
 		/* Reading file contents into array list*/
 		
 		
-		
+		file
 	}
 
 /** Returns the number of words in the lexicon. */
