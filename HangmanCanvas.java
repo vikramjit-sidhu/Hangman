@@ -277,7 +277,7 @@ public class HangmanCanvas extends GCanvas {
 		double xpos = bodyStartPt.getX();
 		double ypos = bodyStartPt.getY() + ARM_OFFSET_FROM_HEAD;
 		/* drawing the upper arm (horizontal line) */
-		add(new GLine(xpos, ypos, xpos + LOWER_ARM_LENGTH, ypos));
+		add(new GLine(xpos, ypos, xpos + UPPER_ARM_LENGTH, ypos));
 		/* drawing the lower arm (vertical line) */
 		add(new GLine(xpos + UPPER_ARM_LENGTH, ypos, xpos + UPPER_ARM_LENGTH, ypos + LOWER_ARM_LENGTH));
 	}
