@@ -4,6 +4,8 @@
  */
 
 import java.io.BufferedReader;
+import java.io.FileNotFoundException;
+import java.io.FileReader;
 import java.util.ArrayList;
 
 import acm.util.*;
@@ -15,7 +17,11 @@ public class HangmanLexicon {
  */
 	public HangmanLexicon() {
 		wordList = new ArrayList<String>();
-		BufferedReader file = new BufferedReader(new FileReader("HangmanLexicon.txt"));
+		try {
+			BufferedReader file = new BufferedReader(new FileReader("HangmanLexicon.txt"));
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		}
 		
 	}
 
