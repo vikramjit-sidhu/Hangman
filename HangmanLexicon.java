@@ -24,8 +24,18 @@ public class HangmanLexicon {
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
-		/* Reading file contents into array list*/
 		
+		/* Reading file contents into array list*/
+		try {
+			while (true) {
+				String word = file.readLine();
+				/* The readLine method returns null if EOF is reached */
+				if (word == null) {
+					break
+				}
+			}
+			
+		}
 		
 		file.close();
 	}
