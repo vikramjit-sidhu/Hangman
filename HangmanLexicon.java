@@ -6,6 +6,7 @@
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
+import java.io.IOException;
 import java.util.ArrayList;
 
 import acm.util.*;
@@ -35,10 +36,11 @@ public class HangmanLexicon {
 				}
 				wordList.add(word);
 			}
+		} catch (IOException e) {
 			
+		} finally {
+			file.close();
 		}
-		
-		file.close();
 	}
 
 /** Returns the number of words in the lexicon. */
