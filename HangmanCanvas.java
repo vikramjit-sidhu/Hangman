@@ -303,7 +303,7 @@ public class HangmanCanvas extends GCanvas {
 		wordGuessedSoFarStartPoint.setLocation(LABEL_X_OFFSET, ypos);
 	}
 	
-/** 
+/** The label showing the incorrect guesses is added
  * */	
 	private void addIncorrectGuessLabel() {
 		setIncorrectGuessPoint();
