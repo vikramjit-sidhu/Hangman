@@ -263,17 +263,6 @@ public class HangmanCanvas extends GCanvas {
 		add(new GLine(xpos - LOWER_ARM_LENGTH, ypos, xpos - LOWER_ARM_LENGTH, ypos));
 	}
 	
-/** Drawing the arm, for now it is a simple line, can improve in future.
- * @param startX the starting x postition of the line
- * @param startY the starting y position for the line
- * @param endX the ending x position for the line
- * @param endY the ending y position for the line
- */
-	private void drawArm(double startX, double startY, double endX, double endY) {
-		GLine upArm = new GLine(startX, startY, endX, endY);
-		add(upArm);
-	}
-	
 
 /** Add the label which displays the status of the word guessed so far
  * 	Also sets the instance variable point which contains the co-ordinates of
