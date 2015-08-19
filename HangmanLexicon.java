@@ -46,7 +46,6 @@ public class HangmanLexicon {
 				e.printStackTrace();
 			}
 		}
-		System.out.println(wordList.toString());
 	}
 
 /** Returns the number of words in the lexicon. */
