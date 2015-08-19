@@ -311,8 +311,8 @@ public class HangmanCanvas extends GCanvas {
 		double xpos = bodyStartPt.getX();
 		double ypos = bodyStartPt.getY() + BODY_LENGTH;
 		/* Adding the hip */
-		add(new GLine(xpos, ypos, xpos - HIP_WIDTH, ypos));
-		add(new GLine(xpos - HIP_WIDTH, ypos, xpos - HIP_WIDTH, ypos + LEG_LENGTH));
+		add(new GLine(xpos, ypos, xpos + HIP_WIDTH, ypos));
+		add(new GLine(xpos + HIP_WIDTH, ypos, xpos + HIP_WIDTH, ypos + LEG_LENGTH));
 	}	
 	
 
