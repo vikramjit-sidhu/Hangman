@@ -31,7 +31,7 @@ public class HangmanLexicon {
 				String word = file.readLine();
 				/* The readLine method returns null if end of stream is reached */
 				if (word == null) {
-					break
+					break;
 				}
 			}
 			
