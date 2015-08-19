@@ -57,8 +57,7 @@ public class HangmanLexicon {
 /** Returns the word at the specified index. */
 	public String getWord(int index) {
 		return wordList.get(index);
-		}
-	};
+	}
 	
 	
 /** The Array List containing the word list */
