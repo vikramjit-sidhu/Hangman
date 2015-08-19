@@ -279,7 +279,7 @@ public class HangmanCanvas extends GCanvas {
 		/* drawing the upper arm (horizontal line) */
 		add(new GLine(xpos, ypos, xpos + LOWER_ARM_LENGTH, ypos));
 		/* drawing the lower arm (vertical line) */
-		add(new GLine(xpos + UPPER_ARM_LENGTH, ypos, xpos - UPPER_ARM_LENGTH, ypos));
+		add(new GLine(xpos + UPPER_ARM_LENGTH, ypos, xpos - UPPER_ARM_LENGTH, ypos + LOWER_ARM_LENGTH));
 	}
 	
 
