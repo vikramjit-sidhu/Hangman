@@ -341,7 +341,7 @@ public class HangmanCanvas extends GCanvas {
  */
 	private void drawRightFoot() {
 		GPoint bodyStartPt = getBodyStartPoint();
-		double xpos = bodyStartPt.getX() - HIP_WIDTH;
+		double xpos = bodyStartPt.getX() + HIP_WIDTH;
 		double ypos = bodyStartPt.getY() + BODY_LENGTH + LEG_LENGTH;
 		/* Adding the leg, it is a single line */
 		add(new GLine(xpos, ypos, xpos - FOOT_LENGTH, ypos));
