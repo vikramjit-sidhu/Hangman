@@ -306,14 +306,14 @@ public class HangmanCanvas extends GCanvas {
  * 
  * 	It is a horizontal line, followed by a vertical line where the horizontal line ends	
  */
-		private void drawLeftLeg() {
-			GPoint bodyStartPt = getBodyStartPoint();
-			double xpos = bodyStartPt.getX();
-			double ypos = bodyStartPt.getY() + BODY_LENGTH;
-			/* Adding the hip */
-			add(new GLine(xpos, ypos, xpos - HIP_WIDTH, ypos));
-			add(new GLine(xpos - HIP_WIDTH, ypos, xpos - HIP_WIDTH, ypos + LEG_LENGTH));
-		}	
+	private void drawLeftLeg() {
+		GPoint bodyStartPt = getBodyStartPoint();
+		double xpos = bodyStartPt.getX();
+		double ypos = bodyStartPt.getY() + BODY_LENGTH;
+		/* Adding the hip */
+		add(new GLine(xpos, ypos, xpos - HIP_WIDTH, ypos));
+		add(new GLine(xpos - HIP_WIDTH, ypos, xpos - HIP_WIDTH, ypos + LEG_LENGTH));
+	}	
 	
 
 /** Add the label which displays the status of the word guessed so far
