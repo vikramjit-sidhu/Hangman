@@ -259,6 +259,8 @@ public class HangmanCanvas extends GCanvas {
 		GPoint bodyStartPt = getBodyStartPoint();
 		double xpos = bodyStartPt.getX();
 		double ypos = bodyStartPt.getX() + ARM_OFFSET_FROM_HEAD;
+		drawUpperArm();
+		drawLowerArm();
 	}
 	
 
